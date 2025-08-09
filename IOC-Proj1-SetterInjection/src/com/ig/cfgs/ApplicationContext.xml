@@ -12,13 +12,9 @@
     
     <bean id="ldt" class="java.time.LocalDateTime" factory-method="now"/>
     <bean id="smg" class="com.ig.sbeans.SeasonMessageGenerator" destroy-method="destroy">
-    	<property name="name" value="rohit_override_by_setter_injection"/>
-    	<constructor-arg name="ldt" ref="ldt"/>
-    	<constructor-arg name="name" value="rohit"/>
+    	<property name="name" value="rohit"/>
+    	<property name="ldt" ref="ldt"/>
     	
     </bean>
-    <bean id="b" factory-bean="factory" factory-method="getInstanceB" primary="true"/>
-    <bean id="factory" class="com.ig.sbeans.UserDefineClassFactory"/>
-    <bean id="a" class = "com.ig.sbeans.UserDefineClassFactory" factory-method="getInstanceA"/>
     
 </beans>

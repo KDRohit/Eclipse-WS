@@ -7,17 +7,11 @@ public class SeasonMessageGenerator
 {
 	public LocalDateTime ldt;
 	public String name;
-	public NotificationService service;
-	
-	public void setService(NotificationService service) 
+	// this is setter method invoked by IOC Container.
+	// used to set local date time.
+	public void setLdt(LocalDateTime ldt) 
 	{
-		this.service = service;
-	}
-
-	public SeasonMessageGenerator(LocalDateTime ldt, String name) 
-	{
-		this.ldt = ldt;
-		this.name = name;
+			this.ldt = ldt;
 	}
 
 	public void setName(String name)
@@ -42,13 +36,6 @@ public class SeasonMessageGenerator
 	public void destroy()
 	{
 		System.out.println("destroy Method invoked");
-	}
-
-	// this is setter method invoked by IOC Container.
-	// used to set local date time.
-	public void setLdt(LocalDateTime ldt) 
-	{
-		this.ldt = ldt;
 	}
 	
 	public String getSeasonMessage()
