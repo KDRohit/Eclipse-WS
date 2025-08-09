@@ -13,7 +13,7 @@ public class DependencyInjectionTest
 		ClassA a = (ClassA)factory.getBean("a");
 		ClassB b = (ClassB)factory.getBean("b");
 		
-		System.out.println(a.getMessage());
+		System.out.println(a.temp+a.getMessage());
 		System.out.println(b.getMessage());
 		
 		factory.close();
