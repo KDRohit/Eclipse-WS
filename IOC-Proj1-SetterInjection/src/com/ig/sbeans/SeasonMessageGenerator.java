@@ -21,12 +21,12 @@ public class SeasonMessageGenerator
 	
 	public void defaultInit()
 	{
-		System.out.println("init default Method invoked");
+		System.out.println("default init Method invoked");
 	}
 	
 	public void defaultDestroy()
 	{
-		System.out.println("destroy default Method invoked");
+		System.out.println("default destroy Method invoked");
 	}
 	public void init()
 	{
