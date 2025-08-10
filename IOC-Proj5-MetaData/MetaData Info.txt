@@ -1,0 +1,24 @@
+1- java.io.Closeable is an interface 
+	- does not mean it will automatically close itself.
+	- Closeable is just a contract (class promises to provide a close() method that releases 					its resources)
+
+	-You (or some framework) must explicitly call close()
+
+2-When it can auto-close
+
+	-A Closeable or AutoCloseable object can be auto-closed only if you use it in a try-with-	  resources block:
+	
+		try (Scanner sc = new Scanner(System.in)) 
+		{
+   	 		String input = sc.nextLine();
+    			System.out.println(input);
+		} 	
+		// <- sc.close() is automatically called here
+
+3- Examples of Closeable classes
+		
+	1-java.io.InputStream and its subclasses (e.g., FileInputStream)
+	2-java.io.OutputStream and its subclasses
+	3-java.io.Reader / java.io.Writer
+	4-java.util.Scanner
+	5-Many JDBC classes (Connection, ResultSet, Statement — these actually implement					AutoCloseable)
