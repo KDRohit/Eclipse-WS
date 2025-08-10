@@ -1,9 +1,6 @@
 package com.ig.main;
 
-import java.util.Scanner;
-
 import org.springframework.context.support.FileSystemXmlApplicationContext;
-
 import com.ig.sbeans.ClassA;
 import com.ig.sbeans.ClassB;
 
