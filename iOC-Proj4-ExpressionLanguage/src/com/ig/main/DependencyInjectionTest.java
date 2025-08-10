@@ -1,5 +1,7 @@
 package com.ig.main;
 
+import java.util.Scanner;
+
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 import com.ig.sbeans.ClassA;
@@ -9,14 +11,17 @@ public class DependencyInjectionTest
 {
 	public static void main(String[] args) 
 	{
-		FileSystemXmlApplicationContext factory = new FileSystemXmlApplicationContext("src/com/ig/cfgs/ApplicationContext.xml");
-		ClassA a = (ClassA)factory.getBean("a");
-		ClassB b = (ClassB)factory.getBean("b");
-		
-		System.out.println(a.temp+a.getMessage());
-		System.out.println(b.getMessage());
-		
-		factory.close();
+		try(FileSystemXmlApplicationContext factory = new FileSystemXmlApplicationContext("src/com/ig/cfgs/ApplicationContext.xml"))
+		{
+			ClassA a = (ClassA)factory.getBean("a");
+			ClassB b = (ClassB)factory.getBean("b");
+			System.out.println(a.message);
+			System.out.println(b.message);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
 	}
 
 }

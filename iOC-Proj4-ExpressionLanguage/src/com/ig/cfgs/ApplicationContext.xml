@@ -56,14 +56,13 @@
     </bean>
     
     <bean id="a" class="com.ig.sbeans.ClassA">
-    	<property name="message" value="#{'please give message.....'.toUpperCase()}"/>
-    	<constructor-arg value="sc"/>
+    	<constructor-arg ref ="sc"/>
     	<constructor-arg value="#{T(com.ig.sbeans.ClassA).value}"/>
     </bean>
     
     <bean id="b" class="com.ig.sbeans.ClassB">
     	<property name="message" value="#{a.getMessage()}"/>
-    	<constructor-arg value="sc"/>
+    	<constructor-arg ref ="sc"/>
     </bean>
     
 </beans>

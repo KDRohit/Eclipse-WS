@@ -13,10 +13,12 @@ public class ClassB
 	}
 	public String getMessage()
 	{
-		return message;
+		String s = sc.nextLine();
+		return s+message;
 	}
 
-	public void setMessage(String message) {
+	public void setMessage(String message) 
+	{
 		this.message = message;
 	}
 	
