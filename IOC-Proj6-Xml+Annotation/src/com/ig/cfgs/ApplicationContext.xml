@@ -17,7 +17,6 @@
     
     <!-- Address Bean -->
     
-    <bean id="ldt" class="java.time.LocalDateTime" factory-method="now"/>
-    <bean id="smg" class="com.ig.sbeans.SeasonMessageGenerator"/>
+    <bean id="ldt1" class="java.time.LocalDateTime" factory-method="now"/>
     
 </beans>
