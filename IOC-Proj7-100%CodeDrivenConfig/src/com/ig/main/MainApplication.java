@@ -12,8 +12,13 @@ public class MainApplication
 		try(AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);)
 		{
 			WishMessageGenerator wmg =  ctx.getBean("wmg",WishMessageGenerator.class);
-			String wishMessage =  wmg.getMessage("Rohit kumar dubey");
-			System.out.println(wishMessage);
+			
+			System.out.println("----------Test welCome message(both target and dependent(injected class) object)");
+			System.out.println("----------Both Target and Dependent(injected class) object created using 100% code driven config--------");
+			System.out.println(wmg.getMessage("Rohit kumar dubey"));
+			
+			System.out.println("------------------------");
+			System.out.println(wmg.getTestSCMessage());
 		}
 		catch (Exception e) 
 		{

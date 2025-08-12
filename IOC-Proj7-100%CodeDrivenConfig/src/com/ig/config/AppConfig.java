@@ -1,6 +1,7 @@
 package com.ig.config;
 
 import java.time.LocalDateTime;
+import java.util.Scanner;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,5 +15,11 @@ public class AppConfig
 	public LocalDateTime getLocalDateTime()
 	{
 		return LocalDateTime.now();
+	}
+	
+	@Bean
+	public Scanner getScanner()
+	{
+		return new Scanner(System.in);
 	}
 }
