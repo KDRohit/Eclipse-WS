@@ -11,13 +11,6 @@ public class SeasonMessageGenerator
 {
 	@Autowired
 	private LocalDateTime ldt;
-	
-	private String name = "no-name";
-	
-	public String getName() 
-	{
-		 return name;
-	}
 
 	public String getMessage()
 	{

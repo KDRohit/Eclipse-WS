@@ -3,6 +3,8 @@
 	- Closeable is just a contract (class promises to provide a close() method that releases 					its resources)
 
 	-You (or some framework) must explicitly call close()
+	
+	https://us06web.zoom.us/rec/share/0vF2K2u7O80Rz6ALitIVPljyJhrX0JUVQOu_JOUYVpVbH87f91nM8Imd5CgzOyE.-YotOKoZK9YesWWm
 
 2-When it can auto-close
 

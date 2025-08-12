@@ -17,6 +17,8 @@
     
     <!-- Address Bean -->
     
-    <bean id="ldt1" class="java.time.LocalDateTime" factory-method="now"/>
+    <bean id="ldt1" class="java.time.LocalDateTime" factory-method="now" primary="true"/>
+    <bean id="ldt2" class="java.time.LocalDateTime" factory-method="now"/>
+    
     
 </beans>
