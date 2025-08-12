@@ -30,11 +30,13 @@ public class WishMessageGenerator
 	
 	public String getTestSCMessage()
 	{
-		if(sc==null)
+		if(sc!=null)
 		{
-			return "'sc' is not instantiated";
+			System.out.println("Enter some text.....");
+			String msg = sc.nextLine();
+			return msg;
 		}
-		return "'sc' is instantiated";
+		return "'sc' is not instantiated";
 	}
 	
 }

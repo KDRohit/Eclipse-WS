@@ -7,11 +7,17 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
-@ComponentScan(basePackages = "com.ig.sbeans")
+@Configuration 
+// 1- it will mark this class as config class (nothing but as special bean class)
+//		- all @Bean annotated method and life cycle method such as @Configuration(initMethod = "customInit", destroyMethod = "customDestroy") will be invoked
+
+
+@ComponentScan(basePackages = "com.ig.sbeans") 
+// 1-  this will create all classes object that is marked as @Component annotation
+
 public class AppConfig 
 {
-	@Bean
+	@Bean("ldt")
 	public LocalDateTime getLocalDateTime()
 	{
 		return LocalDateTime.now();
