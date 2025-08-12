@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 //		- all @Bean annotated method and life cycle method such as @Configuration(initMethod = "customInit", destroyMethod = "customDestroy") will be invoked
 
 
-@ComponentScan(basePackages = "com.ig.sbeans") 
+@ComponentScan(basePackages = {"com.ig.sbeans","com.gi.sbeans"}) 
 // 1-  this will create all classes object that is marked as @Component annotation
 
 public class AppConfig 
@@ -20,6 +20,13 @@ public class AppConfig
 	@Bean("ldt")
 	public LocalDateTime getLocalDateTime()
 	{
+		System.out.println("AppConfig.getLocalDateTime()");
+		return LocalDateTime.now();
+	}
+	@Bean("ldt2")
+	public LocalDateTime getLocalDateTime1()
+	{
+		System.out.println("AppConfig.getLocalDateTime1()");
 		return LocalDateTime.now();
 	}
 	

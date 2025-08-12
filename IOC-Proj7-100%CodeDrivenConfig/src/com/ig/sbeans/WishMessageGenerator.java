@@ -10,7 +10,8 @@ public class WishMessageGenerator
 {
 	@Autowired
 	private LocalDateTime ldt;
-	
+	@Autowired
+	private LocalDateTime ldt2;
 	@Autowired
 	private Scanner sc;
 	
@@ -30,6 +31,8 @@ public class WishMessageGenerator
 	
 	public String getTestSCMessage()
 	{
+		System.out.println(ldt.hashCode());
+		System.out.println(ldt2.hashCode());
 		if(sc!=null)
 		{
 			System.out.println("Enter some text.....");
