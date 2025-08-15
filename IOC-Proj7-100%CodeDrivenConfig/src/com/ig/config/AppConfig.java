@@ -18,13 +18,13 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig 
 {
 	@Bean("ldt")
-	public LocalDateTime getLocalDateTime()
+	private LocalDateTime getLocalDateTime()
 	{
 		System.out.println("AppConfig.getLocalDateTime()");
 		return LocalDateTime.now();
 	}
 	@Bean("ldt2")
-	public LocalDateTime getLocalDateTime1()
+	private LocalDateTime getLocalDateTime1()
 	{
 		System.out.println("AppConfig.getLocalDateTime1()");
 		return LocalDateTime.now();
