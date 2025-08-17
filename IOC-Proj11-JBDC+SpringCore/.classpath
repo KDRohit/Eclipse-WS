@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="D:/java software/spring-core-6.2.9.jar"/>
 	<classpathentry kind="lib" path="D:/java software/spring-expression-6.2.9.jar"/>
 	<classpathentry kind="lib" path="D:/java software/spring-jcl-6.2.9.jar"/>
+	<classpathentry kind="lib" path="D:/java software/lombok-1.18.38.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
