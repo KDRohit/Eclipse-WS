@@ -4,6 +4,7 @@ import org.bson.Document;
 
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
 public class JDBCMain 
@@ -19,10 +20,13 @@ public class JDBCMain
             System.out.println("Connected to database: " + database.getName());
             
             // Insert a sample document
-            database.getCollection("family")
-                    .insertOne(new Document("name", "Rohit")
-                    .append("member", "Brother"));
             
+            MongoCollection<Document> table = database.getCollection("Employee");
+            Document data = new Document("name", "Rohit");
+            data.append("empId", "Brother");
+            data.append("member", "Brother");
+            
+            table.insertOne(data);
             System.out.println("Document inserted successfully!");
         }
         catch(Exception e)
