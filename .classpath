@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="IOC-Proj01-SetterInjection/src"/>
+	<classpathentry kind="src" path="IOC-Proj02-ConstructorInjection/src"/>
+	<classpathentry kind="src" path="IOC-Proj03-CyclicInjection/src"/>
+	<classpathentry kind="src" path="IOC-Proj04-ExpressionLanguage/src"/>
+	<classpathentry kind="src" path="IOC-Proj05-MetaData/src"/>
+	<classpathentry kind="src" path="IOC-Proj06-Xml+Annotation/src"/>
+	<classpathentry kind="src" path="IOC-Proj07-100%CodeDrivenConfig/src"/>
+	<classpathentry kind="src" path="IOC-Proj08-ReflectAPI/src"/>
+	<classpathentry kind="src" path="IOC-Proj09-AllTypeDependencyInjection/src"/>
+	<classpathentry kind="src" path="IOC-Proj10-LambokAPI/src"/>
+	<classpathentry kind="src" path="IOC-Proj11-JBDC+SpringCore/src"/>
+	<classpathentry kind="src" path="IOC-Proj12-Hybernate+SpringCore/src"/>
+	<classpathentry kind="src" path="IOC-Proj13-OJBDC+SpringCore/src"/>
+	<classpathentry kind="src" path="IOC-Proj14-MongoDB+SpringCore/src"/>
+	<classpathentry kind="src" path="IOC-Proj15-FactoryDesignPattern/src"/>
+	<classpathentry kind="src" path="IOC-Proj16-StrategyDesingPatterUsingMaven/IOC-Proj16-StrategyDesingPatterUsingMaven/src/main/java"/>
+	<classpathentry kind="output" path="IOC-Proj01-SetterInjection/bin"/>
+</classpath>

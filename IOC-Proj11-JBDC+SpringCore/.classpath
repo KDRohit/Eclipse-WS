@@ -6,7 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/java software/MySQL softwares/mysql-connector-j-9.4.0/mysql-connector-j-9.4.0/mysql-connector-j-9.4.0.jar"/>
 	<classpathentry kind="lib" path="D:/java software/spring-aop-6.2.9.jar"/>
 	<classpathentry kind="lib" path="D:/java software/spring-beans-6.2.9.jar"/>
 	<classpathentry kind="lib" path="D:/java software/spring-context-6.2.9.jar"/>
@@ -14,6 +13,6 @@
 	<classpathentry kind="lib" path="D:/java software/spring-core-6.2.9.jar"/>
 	<classpathentry kind="lib" path="D:/java software/spring-expression-6.2.9.jar"/>
 	<classpathentry kind="lib" path="D:/java software/spring-jcl-6.2.9.jar"/>
-	<classpathentry kind="lib" path="D:/java software/lombok-1.18.38.jar"/>
+	<classpathentry kind="lib" path="D:/java software/mysql-connector-j-9.4.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

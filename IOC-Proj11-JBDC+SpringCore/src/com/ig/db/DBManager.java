@@ -135,9 +135,11 @@ public class DBManager
 			ResultSet result =  statement.executeQuery(query);
 			while(result.next())
 			{
-				String projName = result.getString("pro_name");
-				String projDev = result.getString("pro_dev");
-				System.out.println("proj_name: "+projName+", proj_dev: "+projDev);
+				int cols = result.getMetaData().getColumnCount();
+				for(int i=1;i<=cols;i++)
+				{
+					System.out.println(result.getObject(i));
+				}
 			}
 			statement.close();
 			connection.close();
