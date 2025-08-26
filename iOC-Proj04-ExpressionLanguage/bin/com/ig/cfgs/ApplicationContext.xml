@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- 
+
+	Key Features of spring expression language (spel)
+	
+	1- Literals
+
+				String: 'Hello'
+				
+				Numeric: 42
+				
+				Boolean: true, false
+				
+	2- Properties
+				
+				person.name
+				
+	3- Method calls
+				
+				'Hello'.substring(2,4) → "ll"
+				
+	4- Relational/Logical Operators
+				
+				count > 10 and active
+
+	5 - Collection Selection & Projection
+
+				list[0] → first element
+
+				map['key'] → map value
+
+	6- Bean references
+
+				@beanName → gets a Spring bean
+
+	7- Safe navigation
+
+		person?.address?.city
+
+
+ -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans.xsd"
+           default-init-method="defaultInit"
+           default-destroy-method="defaultDestroy"
+           >
+
+    <!-- Address Bean -->
+     <bean id="sc" class="java.util.Scanner">
+    	<constructor-arg value="#{T(java.lang.System).in}"/>
+    </bean>
+    
+    <bean id="a" class="com.ig.sbeans.ClassA">
+    	<constructor-arg ref ="sc"/>
+    	<constructor-arg value="#{T(com.ig.sbeans.ClassA).value}"/>
+    </bean>
+    
+    <bean id="b" class="com.ig.sbeans.ClassB">
+    	<property name="message" value="#{a.getMessage()}"/>
+    	<constructor-arg ref ="sc"/>
+    </bean>
+    
+</beans>
