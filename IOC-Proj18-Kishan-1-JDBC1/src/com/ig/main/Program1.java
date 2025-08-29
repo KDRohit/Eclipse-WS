@@ -19,6 +19,7 @@ public class Program1
 	String sqlQuery2 = "insert into developers values ('4','raju')";
 	String sqlQuery3 = "select * from developers where emp_id=''";
 	String sqlQuery4 = "update developers set emp_name='updated' where emp_id=''";
+	String sqlQuery5 = "delete from developers where emp_id='101'";
 	
 	
 	Connection getConnection()
@@ -109,7 +110,7 @@ public class Program1
 		try
 		{
 			Statement st = con.createStatement();
-			ResultSet rs =  st.executeQuery("select * from developers where emp_id='"+empId +"'");
+			ResultSet rs =  st.executeQuery("select * from developers where empid='"+empId +"'");
 			while(rs.next())
 			{
 				message = "Records retrived successfully!";
@@ -142,7 +143,7 @@ public class Program1
 		try
 		{
 			Statement st = con.createStatement();
-			int rows =  st.executeUpdate("update developers set emp_name='"+empName+"' where emp_id='"+empId+"'");
+			int rows =  st.executeUpdate("update developers set empname='"+empName+"' where empid='"+empId+"'");
 			
 			if(rows==1)
 			{
@@ -161,12 +162,44 @@ public class Program1
 		System.out.println(message);
 	}
 	
+	public void deleteData()
+	{
+		System.out.println("Deleting data.");
+		System.out.println("enter emp id which you want to delete");
+		int empId = Integer.parseInt(sc.nextLine());
+		
+		Connection con = getConnection();
+		String message = "Record not found!";
+		try
+		{
+			Statement st = con.createStatement();
+			int rows =  st.executeUpdate("delete from developers where empid='"+empId+"'");
+			
+			if(rows==1)
+			{
+				message = "Record deleted successfully!";
+			}
+			System.out.println("Do you want to view the data (yes/no)");
+			if(sc.nextLine().equalsIgnoreCase("yes"))
+			{
+				retriveData();
+			}
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		System.out.println(message);
+		
+	}
+	
 	public static void main(String[] args) 
 	{
 		 Program1 prog1 =  new Program1();
 		 //prog1.retriveData();
 		 //prog1.insertDataIntoTable();
 		 //prog1.retriveSomeData();
-		 prog1.updateData();
+		 //prog1.updateData();
+		 //prog1.deleteData();
 	}
 }
