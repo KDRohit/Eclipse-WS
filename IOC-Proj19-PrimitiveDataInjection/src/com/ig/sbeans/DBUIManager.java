@@ -57,27 +57,33 @@ public class DBUIManager
 	
 	public void OnCreateTable()
 	{
-		dbManager.CreateTable();
+		dbManager.OnCreate();
+		System.out.println("-------------------------");
 		showMenu();
 	}
 	
 	public void OnInsertIntoTable()
 	{
-		dbManager.InsertIntoTable();
+		dbManager.OnInsert();
+		System.out.println("-------------------------");
 		showMenu();
 	}
 	public void OnUpdateIntoTable()
 	{
 		dbManager.OnUpdate();
+		System.out.println("-------------------------");
 		showMenu();
 	}
 	public void OnDeleteFromTable()
 	{
+		dbManager.OnDelete();
+		System.out.println("-------------------------");
 		showMenu();
 	}
 	public void OnSelectFromTable()
 	{
-		dbManager.RetrieveFromTable();
+		dbManager.OnRetrieve();
+		System.out.println("-------------------------");
 		showMenu();
 	}
 	public void OnExit()

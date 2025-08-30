@@ -25,13 +25,6 @@ public class DBManager
 		return data;
 	}
 	
-	private int getInt(String msg)
-	{	
-		System.out.println(msg);
-		int data = Integer.parseInt(sc.nextLine());
-		return data;
-	}
-	
 	private String getColumns()
 	{
 		String columns="";
@@ -74,7 +67,7 @@ public class DBManager
 		return values;
 	}
 	
-	public void CreateTable()
+	public void OnCreate()
 	{
 		String query = "create table ";
 		String tableName = getString("Enter table name:-");
@@ -87,7 +80,8 @@ public class DBManager
 		try
 		{
 			Statement st =  con.createStatement();
-			System.out.println(query);
+			System.out.println("QUERY:-"+query);
+			System.out.println("OUTPUT:-");
 			int rows =  st.executeUpdate(query);
 			if(rows==0)
 			{
@@ -104,7 +98,7 @@ public class DBManager
 		}
 	}
 	
-	public void InsertIntoTable()
+	public void OnInsert()
 	{
 		String query = "insert into ";
 		String tableName = getString("Enter table name:-");
@@ -117,7 +111,8 @@ public class DBManager
 		try
 		{
 			Statement st =  con.createStatement();
-			System.out.println(query);
+			System.out.println("QUERY:-"+query);
+			System.out.println("OUTPUT:-");
 			int rows =  st.executeUpdate(query);
 			if(rows>0)
 			{
@@ -134,7 +129,7 @@ public class DBManager
 		}
 	}
 	
-	public void RetrieveFromTable()
+	public void OnRetrieve()
 	{
 		String query = "select * from ";
 		String tableName = getString("Enter table name:-");
@@ -144,7 +139,8 @@ public class DBManager
 		try
 		{
 			Statement st =  con.createStatement();
-			System.out.println(query);
+			System.out.println("QUERY:-"+query);
+			System.out.println("OUTPUT:-");
 			ResultSet rs =  st.executeQuery(query);
 			while(rs.next())
 			{
@@ -176,7 +172,38 @@ public class DBManager
 		try
 		{
 			Statement st =  con.createStatement();
-			System.out.println(query);
+			System.out.println("QUERY:-"+query);
+			System.out.println("OUTPUT:-");
+			int rows =  st.executeUpdate(query);
+			if(rows>0)
+			{
+				System.out.println(msgPass);
+			}
+			else
+			{
+				System.out.println(msgFailed);
+			}
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	public void OnDelete()
+	{
+		String query = "delete from ";
+		String tableName = getString("Enter table name:-");
+		String whereColumnName = getString("where column name:-");
+		String whereColumnValue = "'"+ getString("where new value:-")+"'";
+		query+=tableName+" where "+whereColumnName+"="+whereColumnValue;
+		String msgPass = "data in "+tableName+" deleted successfully!";
+		String msgFailed = "data in "+tableName+" deletion failed!";
+		try
+		{
+			Statement st =  con.createStatement();
+			System.out.println("QUERY:-"+query);
+			System.out.println("OUTPUT:-");
 			int rows =  st.executeUpdate(query);
 			if(rows>0)
 			{
