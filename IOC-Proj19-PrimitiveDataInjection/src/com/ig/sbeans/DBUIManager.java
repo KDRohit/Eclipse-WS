@@ -68,6 +68,7 @@ public class DBUIManager
 	}
 	public void OnUpdateIntoTable()
 	{
+		dbManager.OnUpdate();
 		showMenu();
 	}
 	public void OnDeleteFromTable()
@@ -81,6 +82,7 @@ public class DBUIManager
 	}
 	public void OnExit()
 	{
+		System.out.println("Bye see you soon!!!");
 		System.exit(1);
 	}
 }

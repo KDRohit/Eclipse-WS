@@ -82,12 +82,12 @@ public class DBManager
 		query+="(";
 		query+=getColumns();
 		query+=");";
-		System.out.println(query);
 		String msgPass = "table "+tableName+" created successfully!";
 		String msgFailed = "table "+tableName+" created failed!";
 		try
 		{
 			Statement st =  con.createStatement();
+			System.out.println(query);
 			int rows =  st.executeUpdate(query);
 			if(rows==0)
 			{
@@ -112,12 +112,12 @@ public class DBManager
 		query+=" values(";
 		query+= getValues();
 		query+=")";
-		System.out.println(query);
 		String msgPass = "table "+tableName+" inserted successfully!";
 		String msgFailed = "table "+tableName+" inserted failed!";
 		try
 		{
 			Statement st =  con.createStatement();
+			System.out.println(query);
 			int rows =  st.executeUpdate(query);
 			if(rows>0)
 			{
@@ -139,12 +139,12 @@ public class DBManager
 		String query = "select * from ";
 		String tableName = getString("Enter table name:-");
 		query+=tableName;
-		System.out.println(query);
 		String msgPass = "data from "+tableName+" retrieve successfully!";
 		String msgFailed = "data from "+tableName+" retrieve failed!";
 		try
 		{
 			Statement st =  con.createStatement();
+			System.out.println(query);
 			ResultSet rs =  st.executeQuery(query);
 			while(rs.next())
 			{
@@ -157,6 +157,37 @@ public class DBManager
 			}
 		}
 		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	public void OnUpdate()
+	{
+		String query = "update ";
+		String tableName = getString("Enter table name:-");
+		String columnName = getString("Enter column name:-");
+		String columnNewValue = "'"+getString("Enter new value:-")+"'";
+		String whereColumnName = getString("where column name:-");
+		String whereColumnValue = "'"+ getString("where new value:-")+"'";
+		query+=tableName+" set "+columnName+"="+columnNewValue+" where "+whereColumnName+"="+whereColumnValue;
+		String msgPass = "data in "+tableName+" updated successfully!";
+		String msgFailed = "data in "+tableName+" updation failed!";
+		try
+		{
+			Statement st =  con.createStatement();
+			System.out.println(query);
+			int rows =  st.executeUpdate(query);
+			if(rows>0)
+			{
+				System.out.println(msgPass);
+			}
+			else
+			{
+				System.out.println(msgFailed);
+			}
+		}
+		catch(Exception e)
 		{
 			e.printStackTrace();
 		}
