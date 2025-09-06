@@ -7,9 +7,8 @@ import org.springframework.stereotype.Component;
 @Component("ec")
 public class EngineController 
 {
-	//@Value("${engine}")
 	@Autowired
-	@Qualifier("alias-engine-id")
+	@Qualifier("factory-engine")
 	private IEngine engine;
 	
 	public void showEngine()
