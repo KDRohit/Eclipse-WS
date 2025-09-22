@@ -24,9 +24,10 @@ public class FirstServlet extends GenericServlet
 		res.setContentType("text/html");
 		String user_name = req.getParameter("uname");
 		String user_mail = req.getParameter("umail");
-		System.out.println("***Data From Html****");
-		System.out.println("User Name:-"+user_name);
-		System.out.println("User e-mail:-"+user_mail);
+		pw.println("<center><h1><br><br>");
+		pw.println("***Data From Html****");
+		pw.println("User Name:-"+user_name);
+		pw.println("User e-mail:-"+user_mail);
 		
 	}
 	public void destroy()
