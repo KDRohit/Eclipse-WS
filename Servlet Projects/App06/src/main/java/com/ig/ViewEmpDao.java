@@ -1,0 +1,37 @@
+package com.ig;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+public class ViewEmpDao 
+{
+	ArrayList<EmpBean> al =  new ArrayList<EmpBean>();
+	
+	public ArrayList<EmpBean> retrieveEmpData()
+	{
+		try
+		{
+			Connection con = DBConnection.getConnection();
+			PreparedStatement pstmt =  con.prepareStatement("select * from employee");
+			EmpBean bean = new EmpBean();
+			ResultSet rs =  pstmt.executeQuery();
+			
+			while(rs.next())
+			{
+				bean.setEmpId(rs.getString(1));
+				bean.setEmpFirstName(rs.getString(2));
+				bean.setEmpLastName(rs.getString(3));
+				bean.setSalary(rs.getDouble(4));
+				bean.setAddress(rs.getString(5));
+				al.add(bean);
+			}
+		}
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+		return null;
+	}
+}
