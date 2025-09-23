@@ -1,3 +1,4 @@
+<%@page import="java.util.Iterator"%>
 <%@page import="java.util.Arrays"%>
 <%@page import="com.ig.EmpBean"%>
 <%@page import="java.util.ArrayList"%>
@@ -10,24 +11,26 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 		<h1>----- Employees-----</h1>
 		<center>
 			<% 
-			String[] params = request.getParameterValues("list");
-			ArrayList<EmpBean> al = new ArrayList<EmpBean>(Arrays.asList(params));
-			al.forEach(t->
+			ArrayList<EmpBean> al = (ArrayList<EmpBean>)request.getAttribute("list");
+			if(al.size()==0)
 			{
-				try
+				out.println("data not found");
+			}
+			else
+			{
+				Iterator<EmpBean> i =  al.iterator();
+				while(i.hasNext())
 				{
-					out.println("");
+					EmpBean e =  (EmpBean)i.next();
+					out.println(e.getEmpId()+" "+e.getEmpFirstName()+" "+e.getEmpLastName()+" "+e.getSalary()+" "+e.getAddress()+"<br><br>");
 				}
-				catch(Exception e)
-				{
-					e.printStackTrace();
-				}
-			});
+			}
 			
 			%>
+			
+			<jsp:include page="index.html"/>
 </body>
 </html>

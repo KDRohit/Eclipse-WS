@@ -15,11 +15,10 @@ public class ViewEmpDao
 		{
 			Connection con = DBConnection.getConnection();
 			PreparedStatement pstmt =  con.prepareStatement("select * from employee");
-			EmpBean bean = new EmpBean();
 			ResultSet rs =  pstmt.executeQuery();
-			
 			while(rs.next())
 			{
+				EmpBean bean = new EmpBean();
 				bean.setEmpId(rs.getString(1));
 				bean.setEmpFirstName(rs.getString(2));
 				bean.setEmpLastName(rs.getString(3));
