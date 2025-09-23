@@ -14,6 +14,7 @@ public class AddEmpServlet extends HttpServlet
 {
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
 	{
+		System.out.println("Request Received");
 		EmpBean bean = new EmpBean();
 		bean.setEmpId(req.getParameter("eid"));
 		bean.setEmpFirstName(req.getParameter("efname"));
