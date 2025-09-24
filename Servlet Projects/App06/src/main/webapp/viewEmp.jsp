@@ -11,8 +11,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-		<h1>----- Employees-----</h1>
 		<center>
+		
+		<h1>----- Employees-----</h1>
+		
 			<% 
 			ArrayList<EmpBean> al = (ArrayList<EmpBean>)request.getAttribute("list");
 			if(al.size()==0)

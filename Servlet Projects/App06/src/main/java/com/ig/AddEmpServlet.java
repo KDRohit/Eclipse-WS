@@ -1,7 +1,6 @@
 package com.ig;
 
 import java.io.IOException;
-import java.lang.invoke.MethodHandles.Lookup.ClassOption;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,18 +8,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/addEmployee")
+@WebServlet("/addEmp")
 public class AddEmpServlet extends HttpServlet
 {
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
 	{
 		System.out.println("Request Received");
+		
 		EmpBean bean = new EmpBean();
-		bean.setEmpId(req.getParameter("eid"));
-		bean.setEmpFirstName(req.getParameter("efname"));
-		bean.setEmpLastName(req.getParameter("elname"));
-		bean.setSalary(Double.parseDouble(req.getParameter("eid")));
-		bean.setAddress(req.getParameter("eaddr"));
+		bean.setEmpId(req.getParameter("id"));
+		bean.setEmpFirstName(req.getParameter("fn"));
+		bean.setEmpLastName(req.getParameter("ln"));
+		bean.setSalary(Double.parseDouble(req.getParameter("sal")));
+		bean.setAddress(req.getParameter("add"));
 		
 		AddEmpDao empDao = new AddEmpDao();
 		int rowCount =empDao.insertEmpData(bean);
@@ -30,7 +30,7 @@ public class AddEmpServlet extends HttpServlet
 		{
 			//System.out.println("Data inserted successfully");
 			req.setAttribute("msg", "Data inserted successfully!!!<br><br>");
-			req.getRequestDispatcher("AddEmp.jsp").forward(req, res);
+			req.getRequestDispatcher("addEmpResult.jsp").forward(req, res);
 		}
 		else
 		{

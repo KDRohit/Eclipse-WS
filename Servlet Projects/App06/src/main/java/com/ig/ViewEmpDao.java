@@ -26,6 +26,7 @@ public class ViewEmpDao
 				bean.setAddress(rs.getString(5));
 				al.add(bean);
 			}
+			return al;
 		}
 		catch (Exception e) 
 		{

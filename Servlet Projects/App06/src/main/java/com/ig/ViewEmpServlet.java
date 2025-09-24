@@ -17,6 +17,6 @@ public class ViewEmpServlet extends HttpServlet
 		ViewEmpDao viewObj = new ViewEmpDao();
 		ArrayList<EmpBean> al = viewObj.retrieveEmpData();
 		request.setAttribute("list", al);
-		request.getRequestDispatcher("viewEmp.jsp").forward(request, response);;
+		request.getRequestDispatcher("viewEmp.jsp").forward(request, response);
 	}
 }

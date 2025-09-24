@@ -11,6 +11,7 @@ public class DBConnection
 	{
 		try
 		{
+			Class.forName(DBInfo.driverName);
 			con = DriverManager.getConnection(DBInfo.dbUrl, DBInfo.dbuser, DBInfo.dbPass);
 		}
 		catch (Exception e)
@@ -21,6 +22,15 @@ public class DBConnection
 
 	public static Connection getConnection()
 	{
+		try
+		{
+			Class.forName(DBInfo.driverName);
+			con = DriverManager.getConnection(DBInfo.dbUrl, DBInfo.dbuser, DBInfo.dbPass);
+		}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}
 		return con;
 	}
 }
