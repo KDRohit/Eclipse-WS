@@ -1,7 +1,10 @@
-package com.ig;
+package com.ig.DAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+
+import com.ig.connection.DBConnection;
+import com.ig.jbeans.EmpBean;
 
 public class AddEmpDao 
 {

@@ -1,4 +1,4 @@
-package com.ig;
+package com.ig.connection;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

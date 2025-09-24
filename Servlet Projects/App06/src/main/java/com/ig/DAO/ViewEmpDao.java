@@ -1,9 +1,12 @@
-package com.ig;
+package com.ig.DAO;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+
+import com.ig.connection.DBConnection;
+import com.ig.jbeans.EmpBean;
 
 public class ViewEmpDao 
 {

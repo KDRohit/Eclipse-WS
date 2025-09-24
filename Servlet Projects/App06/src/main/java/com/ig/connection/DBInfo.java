@@ -1,4 +1,4 @@
-package com.ig;
+package com.ig.connection;
 
 public interface DBInfo
 {
