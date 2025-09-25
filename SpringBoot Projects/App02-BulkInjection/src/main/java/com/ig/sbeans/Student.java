@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 import lombok.Data;
 
 @Component("stu")
-//@ConfigurationProperties(prefix = "sbean.student")
-@PropertySource("application.yml")
+@ConfigurationProperties(prefix = "sbean.student")
+//@PropertySource("application.yml")
 @Data
 public class Student
 {
@@ -16,4 +16,5 @@ public class Student
 	private String name;
 	private int std;
 	private String section;
+	private String[] favcolors;
 }
