@@ -1,0 +1,7 @@
+# student properties
+sbeans:
+   student: 
+        rollNo=43
+        name=amit
+        std=7
+        section=A
