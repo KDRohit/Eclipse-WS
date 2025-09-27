@@ -37,6 +37,7 @@ public class LoginServlet extends HttpServlet
 			 ServletContext context =  request.getServletContext();
 			 context.setAttribute("ubean", result);
 			 Cookie ck = new Cookie("name", result.getUserName());
+			 response.addCookie(ck);
 			 request.getRequestDispatcher("home.jsp").forward(request, response);
 		 }
 	}

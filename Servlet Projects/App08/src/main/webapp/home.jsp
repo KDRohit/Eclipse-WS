@@ -16,7 +16,7 @@
 									out.println("<br><br>");
 								%>
 								
-								<a href="viewProfile.jsp">View Profile</a><br>
+								<a href="onView">View Profile</a><br>
 								<a href="logout">Logout</a>
 				</h1>
 </body>

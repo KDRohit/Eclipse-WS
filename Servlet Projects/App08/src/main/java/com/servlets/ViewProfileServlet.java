@@ -2,7 +2,6 @@ package com.servlets;
 
 import java.io.IOException;
 
-import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -10,14 +9,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.dao.UserDao;
-import com.jbeans.User;
-
-@WebServlet("/onEdit")
-public class EditProfileServlet extends HttpServlet
+@WebServlet("/onView")
+public class ViewProfileServlet extends HttpServlet
 {
 	@Override
-	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException,ServletException
 	{
 		Cookie[] arr = request.getCookies();
 		String fname = null;
@@ -38,7 +34,8 @@ public class EditProfileServlet extends HttpServlet
 				}
 			}
 			request.setAttribute("fname",fname );
-			request.getRequestDispatcher("editProfile.jsp").forward(request, response);
+			request.getRequestDispatcher("viewProfile.jsp").forward(request, response);
 		}
 	}
+	
 }

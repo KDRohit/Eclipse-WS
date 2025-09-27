@@ -11,12 +11,11 @@ public class UserDao
 	private static final String REG_QUERY= "insert into registration values(?,?,?,?,?,?)";
 	private static final String LOG_IN_QUERY= "select * from registration where username=? and password = ?";
 	private static final String UPDATE_QUERY="update registration set "
-																				+"username=? and "
-																				+ "firstname=? and "
-																				+ "lastname=? and "
-																				+ "mailid=? and "
+																				+ "firstname=?, "
+																				+ "lastname=?, "
+																				+ "mailid=?, "
 																				+ "phone=? where "
-																				+ "username=?";
+																				+ "username= ? ";
 	
 	public static int doRegister(User user)
 	{
@@ -77,19 +76,18 @@ public class UserDao
 	}
 	
 	
-	public static int updateProfile(String whereUserName, User user)
+	public static int updateProfile(User user)
 	{
 		int rows = 0;
 		Connection con = ConnectionManager.getConnection();
 		try 
 		{
 			PreparedStatement pstmt =  con.prepareStatement(UPDATE_QUERY);
-			pstmt.setString(1, user.getUserName());
-			pstmt.setString(2, user.getFirstName());
-			pstmt.setString(3, user.getLastName());
-			pstmt.setString(4, user.getMailId());
-			pstmt.setLong(5, user.getPhoneNo());
-			pstmt.setString(6, whereUserName);
+			pstmt.setString(1, user.getFirstName());
+			pstmt.setString(2, user.getLastName());
+			pstmt.setString(3, user.getMailId());
+			pstmt.setLong(4, user.getPhoneNo());
+			pstmt.setString(5, user.getUserName());
 			rows = pstmt.executeUpdate();
 		}
 		catch (Exception e)

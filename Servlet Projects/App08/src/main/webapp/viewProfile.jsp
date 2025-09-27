@@ -12,19 +12,23 @@
 				<h1>
 								<%
 									User user =  (User)application.getAttribute("ubean");
-									out.println("----------- Profile Details--------");
+								    String fname=  (String)request.getAttribute("fname");
+									out.println("----------- Profile Details--------(Session belongs to "+fname+")");
 									out.println("<h1>");
-									out.println("User Name:"+user.getUserName()+"<br>");
-									out.println("First Name: "+user.getFirstName()+"<br>");
-									out.println("Last Name: "+user.getLastName()+"<br>");
-									out.println("Email Id: "+user.getMailId()+"<br>");
-									out.println("Phone No:"+user.getPhoneNo()+"<br>");
+									out.println("User Name:"+user.getUserName()+", ");
+									String pass = user.getPassword();
+									String securePwd = pass.substring(0,1)+"*******"+pass.substring(pass.length()-1);
+									out.println("User Password"+securePwd);
+									out.println("First Name: "+user.getFirstName()+", ");
+									out.println("Last Name: "+user.getLastName()+", ");
+									out.println("Email Id: "+user.getMailId()+", ");
+									out.println("Phone No:"+user.getPhoneNo()+"");
 									out.println("</h1>");
 								%>
 								
 				</h1>
 				<h3>
-								<a href="editProfile.jsp">Edit Profile</a><br><br>
+								<a href="onEdit">Edit</a><br><br>
 								<a href="logout">Logout</a>
 				</h3>	
 </body>
