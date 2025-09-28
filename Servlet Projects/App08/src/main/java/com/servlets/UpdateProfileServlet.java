@@ -32,5 +32,4 @@ public class UpdateProfileServlet extends HttpServlet
 			System.out.println("User updation failed!");
 		}
 	}
-
 }
