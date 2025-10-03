@@ -1,4 +1,7 @@
 package com.ig.service;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,4 +16,12 @@ public class DAOService
 	@Autowired
 	private IDAO dao;
 	
+	public <T> ArrayList<T> select(String tableName,T t) throws SQLException 
+	{
+		return  dao.select(tableName, t);
+	}
+	public <T> int insert(String tableName,T t) throws SQLException 
+	{
+		return  dao.insert(tableName, t);
+	}
 }
