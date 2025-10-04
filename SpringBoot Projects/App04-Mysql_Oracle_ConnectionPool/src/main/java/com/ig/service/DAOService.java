@@ -24,4 +24,8 @@ public class DAOService
 	{
 		return  dao.insert(tableName, t);
 	}
+	public <T> int update(String tableName,T t) throws SQLException 
+	{
+		return  dao.update(tableName, t);
+	}
 }

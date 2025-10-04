@@ -39,6 +39,7 @@ public class DAOController
 	
 	private void setEmployeeByUser(Employee e,Scanner sc)
 	{
+		
 		System.out.println("Enter emp id:-");
 		e.setEid(sc.nextLine());
 		System.out.println("Enter emp first name:-");
@@ -71,6 +72,11 @@ public class DAOController
 				 insert(tableName,t);
 				break;
 				
+				case 3:
+				setEmployeeByUser(t, sc);
+				update(tableName, t);
+				break;
+				
 				case 5:
 				System.out.println("Illegal input ..............\n Bye see you again !!!");
 				System.exit(1);
@@ -101,6 +107,14 @@ public class DAOController
 	{
 		int result = dbService.insert(tableName, t);
 		System.out.println(result==1?"data inserted successfully":"data insertion failed!");
+		System.out.println();
+		showDBServices(false);
+	}
+	
+	public <T> void  update(String tableName,T t) throws SQLException
+	{
+		int result = dbService.update(tableName, t);
+		System.out.println(result==1?"data updated successfully":"data updation failed!");
 		System.out.println();
 		showDBServices(false);
 	}

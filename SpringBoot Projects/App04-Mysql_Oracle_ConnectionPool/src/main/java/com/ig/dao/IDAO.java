@@ -8,6 +8,6 @@ public interface IDAO
 {
 	public <T> ArrayList<T> select(String tableName,T t) throws SQLException;
 	public <T> int insert(String tableName,T t) throws SQLException;
-	public int update();
-	public int delete();
+	public <T> int update(String tableName,T t) throws SQLException;
+	public <T> int delete(String tableName,T t) throws SQLException;
 }

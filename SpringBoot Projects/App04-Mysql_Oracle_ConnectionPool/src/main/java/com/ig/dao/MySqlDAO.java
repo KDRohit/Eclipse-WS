@@ -49,6 +49,8 @@ public class MySqlDAO implements IDAO
 	   }
 	   return null;
 	}
+   
+   
 	@Override
 	public <T> int insert(String tableName, T t) throws SQLException 
 	{
@@ -67,16 +69,32 @@ public class MySqlDAO implements IDAO
 		}
 		return rows;
 	}
-
+	
+	
 	@Override
-	public int update() 
+	public <T> int update(String tableName, T t) throws SQLException
+	{
+		int rows = 0;
+		if(t instanceof Employee)
+		{
+			Employee e = (Employee)t;
+			Connection con = ds.getConnection();
+			PreparedStatement pstmt =  con.prepareStatement("update "+tableName+" set firstname = ?, lastname=? , salary=? , address=? where empid=?");
+			pstmt.setString(1,e.getEfn());
+			pstmt.setString(2,e.getEln());
+			pstmt.setInt(3, e.getSal());
+			pstmt.setString(4,e.getAdd());
+			pstmt.setString(5,e.getEid());
+			rows=pstmt.executeUpdate();
+		}
+		return rows;
+	}
+	
+	
+	@Override
+	public <T> int delete(String tableName, T t) throws SQLException 
 	{
 		return 0;
 	}
-
-	@Override
-	public int delete() 
-	{
-		return 0;
-	}
+	
 }
