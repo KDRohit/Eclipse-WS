@@ -1,13 +1,11 @@
 package com.ig.service;
-
 import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
+import com.ig.exceptions.CustomException;
 import com.ig.repo.IBankAccountRepo;
-
-import jakarta.transaction.Transactional;
 
 @Service("bankAccountService")
 public class BankAccountService
@@ -25,8 +23,11 @@ public class BankAccountService
 		return "Account ["+accNum+"], Balance ["+container.get()+"]";
 	}
 	
-	public String withDrawMoney(Long accNum,Double money)
+	public String withDrawMoney(Long accNum,Double money) throws CustomException
 	{
+		// checking if  account exists else throw exception
+		accountRepo.findById(accNum).orElseThrow(()->new CustomException("Account ["+accNum+"] Not Found!"));
+		
 		Optional<Integer> container =  accountRepo.withDrawMoney(accNum, money);
 		if(container.isEmpty() || container.get()==0)
 		{
@@ -35,8 +36,11 @@ public class BankAccountService
 		return "With Draw Money ["+money+"] from Account ["+accNum+"]";
 	}
 	
-	public String depositMoney(Long accNum,Double money)
+	public String depositMoney(Long accNum,Double money) throws CustomException
 	{
+		// checking if  account exists else throw exception
+		accountRepo.findById(accNum).orElseThrow(()->new CustomException("Account ["+accNum+"] Not Found!"));
+		
 		Optional<Integer> container =  accountRepo.depositMoney(accNum, money);
 		if(container.isEmpty() || container.get()==0)
 		{
@@ -45,12 +49,13 @@ public class BankAccountService
 		return "Money ["+money+"] Deposited into Account ["+accNum+"]";
 	}
 	
-	@Transactional
-	public String transferMoney(Long srcAccNum,Long desAccNum,Double money)
+	@Transactional(propagation = Propagation.REQUIRED)
+	public String transferMoney(Long srcAccNum,Long desAccNum,Double money) throws CustomException
 	{
 		String msg="";
-		msg+=depositMoney(desAccNum, money);
 		msg+=withDrawMoney(srcAccNum, money);
+		msg+=depositMoney(desAccNum, money);
 		return msg;
 	}
+
 }
