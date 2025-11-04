@@ -17,7 +17,7 @@ import lombok.RequiredArgsConstructor;
 @Table(name = "JPA_DateTime")
 @Data
 @RequiredArgsConstructor
-public class DateTimeEntity 
+public class DateTimeEntity extends MetaDataEntity
 {
 	//------------------------DateTime Info------------------------------------
 	@Column(name = "user_id")

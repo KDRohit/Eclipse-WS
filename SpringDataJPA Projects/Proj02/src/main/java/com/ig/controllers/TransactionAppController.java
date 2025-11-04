@@ -11,7 +11,7 @@ import com.ig.entity.Movie;
 import com.ig.service.BankAccountService;
 
 @Controller("transactionController")
-@Profile({"account-in-mysql","account-in-oracle"})
+@Profile({"account-in-mysql","account-in-oracle","account-in-h2db"})
 public class TransactionAppController implements AppController
 {
 	@Autowired

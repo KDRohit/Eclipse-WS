@@ -7,7 +7,7 @@ import com.ig.entity.DateTimeEntity;
 import com.ig.repo.IDateTimeRepo;
 
 @Service
-public class DateTimeService 
+public class DateTimeService
 {
 	@Autowired
 	private IDateTimeRepo repo;
