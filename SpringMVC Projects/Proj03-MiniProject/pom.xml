@@ -39,7 +39,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jetty/apache-jstl -->
+		<dependency>
+		    <groupId>org.eclipse.jetty</groupId>
+		    <artifactId>apache-jstl</artifactId>
+		    <version>11.0.0</version>
+		</dependency>
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>

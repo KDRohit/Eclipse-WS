@@ -5,11 +5,13 @@
     isELIgnored="false"
     %>
  <center>
- 			<h1>Welcome in Mini Project</h1><br><br>
- 			<h2><u>Login Form</u></h2><br>
- 			<form action="login" method="post">
- 				Username: <input type="text" name="first"/><br>
- 				Password: <input type="password" name="second"/><br>
- 				<input type="submit" value="Login"/>
- 			</form>
+ 		<h1>
+ 			<u>Welcome in Mini Project(Home Page)</u>
+ 		</h1>
+ 		<br><br>
+ 		
+	 	<a href="report">
+	 		<img width="100px" height="100px" src="images/report.png">
+	 	</a>
+	 	
  </center>
