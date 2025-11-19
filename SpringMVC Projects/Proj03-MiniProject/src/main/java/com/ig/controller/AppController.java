@@ -2,8 +2,6 @@ package com.ig.controller;
 
 import java.util.List;
 import java.util.Map;
-
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,8 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
-import com.ig.entity.Movie;
 import com.ig.model.VOMovie;
 import com.ig.service.MovieService;
 
@@ -46,14 +42,6 @@ public class AppController
 		return "add";
 	}
 	
-	@GetMapping("/edit")
-	public String gotoUpdatePage(@RequestParam("no") Integer no,Map<String, Object> map)
-	{
-		VOMovie vo = service.findById(no);
-		map.put("movie", vo);
-		return "edit";
-	}
-	
 	@PostMapping("/add")
 	public String postFromAddPage(@ModelAttribute("movie") VOMovie vo,
 			RedirectAttributes model)
@@ -61,6 +49,15 @@ public class AppController
 		String message =  service.save(vo);
 		model.addFlashAttribute(messageKey, message);
 		return "redirect:report";
+	}
+	
+	@GetMapping("/edit")
+	public String gotoUpdatePage(@RequestParam("no") Integer no,
+			Map<String, Object> map)
+	{
+		VOMovie vo = service.findById(no);
+		map.put("movie", vo);
+		return "edit";
 	}
 	
 	@PostMapping("/edit")
