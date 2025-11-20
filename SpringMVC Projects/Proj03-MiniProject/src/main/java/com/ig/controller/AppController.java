@@ -17,6 +17,7 @@ import com.ig.service.MovieService;
 public class AppController 
 {
 	public String messageKey="message";
+	public String errorMessageKey="error_message";
 	
 	@Autowired
 	private MovieService service;
@@ -46,9 +47,17 @@ public class AppController
 	public String postFromAddPage(@ModelAttribute("movie") VOMovie vo,
 			RedirectAttributes model)
 	{
-		String message =  service.save(vo);
-		model.addFlashAttribute(messageKey, message);
-		return "redirect:report";
+		try
+		{
+			String message =  service.save(vo);
+			model.addFlashAttribute(messageKey, message);
+			return "redirect:report";
+		}
+		catch (Exception e) 
+		{
+			model.addFlashAttribute(errorMessageKey,e.getMessage());			
+			return "show_error";
+		}
 	}
 	
 	@GetMapping("/edit")
