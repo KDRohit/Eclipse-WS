@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ig.entity.Movie;
+import com.ig.errors.MovieException;
 import com.ig.model.VOMovie;
 import com.ig.repo.IMovieRepo;
 
@@ -19,7 +20,7 @@ public class MovieService
 	public VOMovie findById(Integer id)
 	{
 		Movie entity =  repo.findById(id).orElseThrow(
-				()->new IllegalArgumentException("Invalid id: "+id)
+				()->new MovieException("Invalid id: "+id)
 				);
 		VOMovie vo = new VOMovie();
 		BeanUtils.copyProperties(entity, vo);
@@ -29,7 +30,7 @@ public class MovieService
 	public Movie findEntityById(Integer id)
 	{
 		Movie entity =  repo.findById(id).orElseThrow(
-				()->new IllegalArgumentException("Invalid id: "+id)
+				()->new MovieException("Invalid id: "+id)
 				);
 		return entity;
 	}
