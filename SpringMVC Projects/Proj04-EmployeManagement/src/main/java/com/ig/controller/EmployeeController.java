@@ -4,6 +4,11 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Sort.Direction;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -22,7 +27,11 @@ public class EmployeeController
 	
 	public String messageKey = "message";
 	public String empVOKey = "empVO";
+	public String pageVOKey = "pageVO";
 	public String empListVOKey =  "empVOList";
+	
+	
+	private final int pageSize = 3;
 	
 	@GetMapping
 	public String gotoFirstPage()
@@ -36,6 +45,29 @@ public class EmployeeController
 		List<EmpVO> list = service.findAll();
 		map.put(empListVOKey, list);
 		return "employee";
+	}
+	
+	@GetMapping("/Employees-by-page")
+	public String getEmployeesByPage(
+			@PageableDefault(
+			direction = Direction.ASC,
+			page = 0,
+			size = pageSize 
+		/*, sort = "company"*/
+			) 
+			Pageable pageable,
+			Map<String, Object> map
+			)
+	{
+		Page<EmpVO> page = service.findAll(pageable);
+		// usefull methods in pages.
+//		page.getTotalPages();
+//		page.getNumber();
+//		page.hasPrevious();
+//		page.hasNext();
+//		page.isFirst();
+		map.put(pageVOKey, page);
+		return "employeebypage";
 	}
 	
 	@GetMapping("/addEmployee")

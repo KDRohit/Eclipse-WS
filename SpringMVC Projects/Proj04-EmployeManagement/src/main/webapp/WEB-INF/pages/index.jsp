@@ -9,5 +9,8 @@
 	    <h2>PAGE::index.jsp</h2>
 	    <a href="Employees">
 	    	SHOW-ALL-EMPLOYEES
+	    </a><br><br>
+	    <a href="Employees-by-page">
+	    	SHOW-BY-PAGE-EMPLOYEES
 	    </a>
     </center>
