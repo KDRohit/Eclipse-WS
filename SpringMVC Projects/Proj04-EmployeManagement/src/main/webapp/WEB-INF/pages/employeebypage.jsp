@@ -6,7 +6,8 @@
     isELIgnored="false"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="j"%>
     <center>
-	    <h1>EMPLOYEE--MANAGEMENT--SERVICE</h1>
+	    <h1>EMPLOYEE--MANAGEMENT--SERVICE [${sysdate}]</h1>
+	     
 	    <h2>PAGE::employeebypage.jsp</h2>
 	    <h2><u>Employee List</u></h2>
 	    <j:choose>
