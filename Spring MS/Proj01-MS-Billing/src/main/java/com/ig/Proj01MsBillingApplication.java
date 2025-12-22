@@ -1,0 +1,15 @@
+package com.ig;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class Proj01MsBillingApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Proj01MsBillingApplication.class, args);
+	}
+
+}
