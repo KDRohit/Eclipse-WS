@@ -14,6 +14,9 @@ import com.ig.entity.IQuizRepo;
 import com.ig.entity.QuizEntity;
 import com.ig.response.QuizVO;
 import com.ig.response.Response;
+import com.ig.service.ILoginService;
+
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 
 @RestController
 @RequestMapping("/game")
@@ -21,12 +24,22 @@ public class GameController
 {
 	@Autowired IQuizRepo quizRepo;
 	
+	@Autowired ILoginService loginService;
+	
+	@CircuitBreaker(name="onTest",fallbackMethod = "loginServiceIsBusy")
 	@GetMapping("/test")
 	public Response<Boolean> test()
-	{
-		Response result =  new Response("200", "Token Validated", true);
+	{		
+		//Response result =  new Response("200", "Token Validated", true);
+		String header = "dkfijeiofjefer.dkjfidfjdofjdofj.kjdfidjfoidjfodif";
+		Response<Boolean> result =  loginService.checkToken(header);
 		return result;
 	} 
+	
+	public Response<Boolean> loginServiceIsBusy(Exception e)
+	{
+		return new Response("200","Ohh !! It looks like Login Service is Busy",false);
+	}
 	
 	@GetMapping("/save/{que}/{opt1}/{opt2}/{opt3}/{opt4}/{ans}")
 	public Response<QuizEntity> save(

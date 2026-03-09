@@ -7,7 +7,10 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Component
+@Slf4j
 public class MessageSender 
 {
 		@Autowired
@@ -22,5 +25,7 @@ public class MessageSender
 			int randNum =new Random().nextInt(10);
 			System.out.println("Send:: Random Number :: "+randNum);
 			kafkaTemplate.send(topicName,"Random Number :: "+randNum);
+			log.info("-------------NEW MESSAGE SENT------------");
+			log.warn("TOPIC NAME::"+topicName+", MESSAGE::Random Number :: "+randNum);
 		}
 }
