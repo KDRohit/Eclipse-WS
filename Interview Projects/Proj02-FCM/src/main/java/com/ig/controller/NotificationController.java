@@ -16,12 +16,15 @@ public class NotificationController {
     private FCMService fcmService;
 
     @PostMapping("/send")
-    public String sendNotification(@RequestParam String token) throws Exception {
-
+    public String sendNotification(
+    		@RequestParam String token,
+    		@RequestParam String title,
+    		@RequestParam String body
+    		) throws Exception {
         return fcmService.sendNotification(
                 token,
-                "Hello",
-                "Notification from Spring Boot"
+                title,
+               body
         );
     }
 }
