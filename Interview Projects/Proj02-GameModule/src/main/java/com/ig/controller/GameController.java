@@ -14,8 +14,8 @@ import com.ig.entity.IQuizRepo;
 import com.ig.entity.QuizEntity;
 import com.ig.response.QuizVO;
 import com.ig.response.Response;
+import com.ig.service.IFCMService;
 import com.ig.service.ILoginService;
-
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 
 @RestController
@@ -23,18 +23,20 @@ import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 public class GameController
 {
 	@Autowired IQuizRepo quizRepo;
-	
 	@Autowired ILoginService loginService;
+	@Autowired IFCMService fcmService;
+	
+	final String adminToken=
+			"fTnAasS6SnGOjJMpmra4CN:APA91bGM8gbdW0jDrCS4-AKH6VPBNj9hYT-VMUnlbR0WjYEtzFGtV5Y456o8wo9t01Hadq8TvyRZ-NzGzNiu6fJJr5Y4VfmsqnSV91GA4coVy4FURbewSWU";
 	
 	@CircuitBreaker(name="onTest",fallbackMethod = "loginServiceIsBusy")
 	@GetMapping("/test")
 	public Response<Boolean> test()
-	{		
-		//Response result =  new Response("200", "Token Validated", true);
+	{
 		String header = "dkfijeiofjefer.dkjfidfjdofjdofj.kjdfidjfoidjfodif";
 		Response<Boolean> result =  loginService.checkToken(header);
 		return result;
-	} 
+	}
 	
 	public Response<Boolean> loginServiceIsBusy(Exception e)
 	{
@@ -53,6 +55,7 @@ public class GameController
 	{
 		QuizEntity entity = new QuizEntity(que, opt1, opt2, opt3, opt4, ans);
 		QuizEntity saved =  quizRepo.save(entity);
+		fcmService.sendNotification(adminToken, "EndPoint::game/save", "New Quiz is Saved");
 		return new Response("200","Quiz is Saved",saved);
 	}
 	
@@ -66,6 +69,7 @@ public class GameController
 		System.out.println("quiz :: "+quiz);
 		QuizVO vo = new QuizVO();
 		BeanUtils.copyProperties(quiz, vo);
+		fcmService.sendNotification(adminToken, "EndPoint::game/play", "Play the quiz !!!");
 		return new Response<QuizVO>("200","Play the quiz !!!",vo);
 	}
 	
@@ -78,9 +82,11 @@ public class GameController
 			QuizEntity quiz = opt.get();
 			if(quiz.getAns().equals(ans))
 			{
+				fcmService.sendNotification(adminToken, "EndPoint::game/play", "Congratulation! Answer is correct");
 				return new Response("200","Congratulation! Answer is correct",true);
 			}
 		}
+		fcmService.sendNotification(adminToken, "EndPoint::game/play", "Ohh !! Answer is incorrect");
 		return new Response("200","Ohh !! Answer is incorrect",false);
 	}
 }

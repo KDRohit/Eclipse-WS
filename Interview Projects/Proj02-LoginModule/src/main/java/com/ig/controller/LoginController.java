@@ -11,12 +11,19 @@ import com.ig.response.LoginSuccess;
 import com.ig.response.Response;
 import com.ig.security.AuthHandler;
 
+import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
 @RequestMapping("/auth")
+@Slf4j
 public class LoginController 
 {
 	@Autowired
 	AuthHandler authHandler;
+	
+	AuthHandler authHandler1;
+	
 	
 	@SuppressWarnings("unchecked")
 	@GetMapping("/login/{username}/{password}")
