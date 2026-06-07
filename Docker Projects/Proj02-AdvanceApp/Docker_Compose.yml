@@ -1,4 +1,5 @@
 services:
+# Movie Application
  movie-app:
   build: .
   image: movie-app:1.0
@@ -7,6 +8,14 @@ services:
   depends_on:
    - mysql
    - redis
+   - loki
+  logging:
+   driver: loki
+   options:
+    loki-url: "http://host.docker.internal:3100/loki/api/v1/push"
+    # loki-external-labels: "service=movie-app,environment=dev"
+
+# SQL_Database :: mysql:8.4
  mysql:
   image: mysql:8.4
   ports:
@@ -14,10 +23,14 @@ services:
   environment:
    MYSQL_ROOT_PASSWORD: root
    MYSQL_DATABASE: ingenuity
+
+# Caching:: redis:latest 
  redis:
    image: redis:latest
    ports:
     - "6379:6379"
+
+# Load Testing tools :: Grafana/k6:latest
  grafanaK6:
   image: grafana/k6:latest
  jmeter:
@@ -30,12 +43,33 @@ services:
    -l /tests/results.jtl
    -e
    -o /tests/report
+   
+# for collecting metics info of the application  :: prometheus as a collector and store metic in db
  prometheus:
   image: prom/prometheus
   volumes:
    - ./prometheus.yml:/etc/prometheus/prometheus.yml
   ports:
    - "9090:9090"
+  
+# for storing logs info of the application into db :: loki
+ loki:
+  image: grafana/loki:latest
+  ports:
+   - "3100:3100"
+  
+# for storing traces info of the application into db :: temp
+ tempo:
+  image: grafana/tempo:latest
+  command: ["-config.file=/etc/tempo_config.yml"]
+  volumes:
+   - ./tempo_config.yml:/etc/tempo_config.yml
+  ports:
+   - "3200:3200"
+   - "4317:4317" # OTLP gRPC
+   - "4318:4318" # OTLP http
+
+# for showing metics and logs in ui :: grafana:latest
  grafana:
   image: grafana/grafana
   ports:
