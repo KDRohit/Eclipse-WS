@@ -38,8 +38,8 @@ public class DynamoDbService
 				).
 				build();
 		
-		item.put("Id ",attributeValue1);
-		item.put("name ",attributeValue2);
+		item.put("Id",attributeValue1);
+		item.put("name",attributeValue2);
 		
 		PutItemRequest request = PutItemRequest.builder()
                 .tableName(MOVIE_TABLE_NAME)

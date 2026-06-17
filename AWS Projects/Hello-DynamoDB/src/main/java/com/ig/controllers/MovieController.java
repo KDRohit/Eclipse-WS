@@ -17,8 +17,9 @@ public class MovieController
 	public DynamoDbService service;
 	
 	@GetMapping("/save/{name}")
-	public Movie saveMovie(@PathVariable String name)
+	public Movie saveMovie(@PathVariable("name") String name)
 	{
 		return service.saveMovie(name);
+		//return name;
 	}
 }
