@@ -58,6 +58,11 @@
 	        <groupId>software.amazon.awssdk</groupId>
 	        <artifactId>auth</artifactId>
 	    </dependency>
+	    
+	    <dependency>
+		    <groupId>software.amazon.awssdk</groupId>
+		    <artifactId>secretsmanager</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -77,6 +82,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>Hello-Dynamo-DB</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

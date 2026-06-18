@@ -1,7 +1,10 @@
 package com.ig.service;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,6 +14,7 @@ import com.ig.entity.Movie;
 import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
 import software.amazon.awssdk.services.dynamodb.model.AttributeValue;
 import software.amazon.awssdk.services.dynamodb.model.PutItemRequest;
+import software.amazon.awssdk.services.dynamodb.model.ScanRequest;
 
 @Service
 public class DynamoDbService 
@@ -19,6 +23,35 @@ public class DynamoDbService
 	public DynamoDbClient dynamoDbClient;
 	
 	public final String MOVIE_TABLE_NAME = "Movies";
+	
+	
+	public  List<Movie> getAllMovies()
+	{
+		ScanRequest scRequest = ScanRequest.builder().tableName(MOVIE_TABLE_NAME).build();
+		List<Map<String,AttributeValue>> items = dynamoDbClient.scan(scRequest).items();
+	    List<Movie> movies = new ArrayList<>();
+		
+	    movies = items.stream().map
+		(
+				map->
+				{
+					 Movie movie = new Movie();
+
+	                if (map.containsKey("Id")) {
+	                    movie.setId(map.get("Id").s());
+	                }
+
+	                if (map.containsKey("name")) {
+	                    movie.setName(map.get("name").s());
+	                }
+
+		                return movie;
+				}
+		)
+		.collect(Collectors.toList());
+		
+		return movies;
+	}
 	
 	public Movie saveMovie(String name)
 	{

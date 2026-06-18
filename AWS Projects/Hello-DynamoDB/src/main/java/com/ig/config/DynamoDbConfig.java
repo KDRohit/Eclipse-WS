@@ -25,15 +25,14 @@ public class DynamoDbConfig
 	@Bean
 	 public DynamoDbClient dynamoDbClient()
 	 {
-		 return DynamoDbClient.
-				 builder().
-				 region(Region.AP_SOUTH_1).
-				 credentialsProvider(
+		 return DynamoDbClient
+				 .builder()
+				 .region(Region.AP_SOUTH_1)
+				 .credentialsProvider(
 								 StaticCredentialsProvider.create
-								 (
-			                                AwsBasicCredentials.create(accessKey, secretKey)
-			                     )
-						 ).
-				 build();
+								 (AwsBasicCredentials.create(accessKey, secretKey))
+						 )
+				 .build();
+		 
 	 }
 }
