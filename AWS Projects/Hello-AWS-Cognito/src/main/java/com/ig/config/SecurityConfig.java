@@ -1,9 +1,6 @@
 package com.ig.config;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.AuthenticationEntryPoint;
@@ -26,6 +23,7 @@ public class SecurityConfig
 					"""
 					{
 		                "status": 401,
+		                "error": "Unauthorized",
 		                "message": "Authentication required"
 					 }
 					"""
@@ -45,6 +43,7 @@ public class SecurityConfig
 			response.getWriter().write("""
 					 		{
 				                "status": 403,
+				                "error": "Unauthorized",
 				                "message": "Access denied"
 					        }
 					""");
