@@ -11,19 +11,25 @@ import org.springframework.stereotype.Service;
 
 import com.ig.entity.Movie;
 
+import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedClient;
 import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
 import software.amazon.awssdk.services.dynamodb.model.AttributeValue;
 import software.amazon.awssdk.services.dynamodb.model.PutItemRequest;
 import software.amazon.awssdk.services.dynamodb.model.ScanRequest;
 
 @Service
-public class DynamoDbService 
+public class DynamoDbClientService
 {
 	@Autowired
 	public DynamoDbClient dynamoDbClient;
 	
+	@Autowired
+	public DynamoDbEnhancedClient dynamoDbEnhancedClient;
+	
 	public final String MOVIE_TABLE_NAME = "Movies";
 	
+	
+	//public 
 	
 	public  List<Movie> getAllMovies()
 	{
@@ -49,7 +55,6 @@ public class DynamoDbService
 				}
 		)
 		.collect(Collectors.toList());
-		
 		return movies;
 	}
 	

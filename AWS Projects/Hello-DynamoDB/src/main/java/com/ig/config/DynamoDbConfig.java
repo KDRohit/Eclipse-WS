@@ -6,23 +6,28 @@ import org.springframework.context.annotation.Configuration;
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
 import software.amazon.awssdk.auth.credentials.DefaultCredentialsProvider;
 import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
+import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedClient;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.dynamodb.DynamoDbClient;
 
 @Configuration
 public class DynamoDbConfig
 {
-	
 	    //@Value("${aws.access-key-id}")
 	    //private String accessKey;
 
 	    //@Value("${aws.secret-access-key}")
 	    //private String secretKey;
-
-	    //@Value("${aws.region}")
-	    //private String region;
-	    
-	    
+	
+	@Bean
+	public DynamoDbEnhancedClient dynamoDbEnhancedClient(DynamoDbClient dynamoDbClient)
+	{
+		return DynamoDbEnhancedClient
+				.builder()
+				.dynamoDbClient(dynamoDbClient)
+				.build();
+	}
+	
 	@Bean
 	 public DynamoDbClient dynamoDbClient()
 	 {
@@ -47,6 +52,5 @@ public class DynamoDbConfig
 				 .builder()
 				 .region(Region.AP_SOUTH_1)
 				 .build();
-		 
 	 }
 }
