@@ -1,7 +1,11 @@
 package com.ig.service;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import software.amazon.awssdk.auth.credentials.DefaultCredentialsProvider;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.cognitoidentityprovider.CognitoIdentityProviderClient;
 import software.amazon.awssdk.services.cognitoidentityprovider.model.*;
@@ -12,12 +16,10 @@ public class CognitoAuthService {
     public static final String clientId = "6sl2qmr4jkpbmo49tf4ul8r832";
 	public static final String clientSecret = "1tdo4v5bg84s8494icuo6og1rdv3qtkpig766uit72g0h37161rt";
 	public static final String userPoolId = "ap-south-1_Walp8wg0E";
-			
-			
-	private final CognitoIdentityProviderClient cognitoClient =
-            CognitoIdentityProviderClient.builder()
-                    .region(Region.AP_SOUTH_1)
-                    .build();
+	
+	@Autowired
+	private CognitoIdentityProviderClient cognitoIdentityProviderClient;
+	
 
 	 public Map<String, CognitoIdentityProviderResponse> createUser(
 			 String email,
@@ -45,7 +47,7 @@ public class CognitoAuthService {
 				                          .build()
 		 								)
 		 		.build();
-		 		AdminCreateUserResponse adminCreateUserResponse =  cognitoClient.adminCreateUser(createRequest);
+		 		AdminCreateUserResponse adminCreateUserResponse =  cognitoIdentityProviderClient.adminCreateUser(createRequest);
 		 		map.put("admin_create_user_response", adminCreateUserResponse);
 	
 				// Add to Group
@@ -56,7 +58,7 @@ public class CognitoAuthService {
 				          .groupName(groupName)
 				          .build();
 	
-				AdminAddUserToGroupResponse adminAddUserToGroupResponse = cognitoClient.adminAddUserToGroup(groupRequest);
+				AdminAddUserToGroupResponse adminAddUserToGroupResponse = cognitoIdentityProviderClient.adminAddUserToGroup(groupRequest);
 				map.put("admin_add_user_to_group_response", adminAddUserToGroupResponse);
 				// Set Permanent Password
 				AdminSetUserPasswordRequest passwordRequest =
@@ -67,7 +69,7 @@ public class CognitoAuthService {
 				          .permanent(true)
 				          .build();
 	
-				AdminSetUserPasswordResponse  adminSetUserPasswordResponse = cognitoClient.adminSetUserPassword(passwordRequest);
+				AdminSetUserPasswordResponse  adminSetUserPasswordResponse = cognitoIdentityProviderClient.adminSetUserPassword(passwordRequest);
 				map.put("admin_set_user_password_response", adminSetUserPasswordResponse);
 				return map;
 	 }
@@ -89,7 +91,7 @@ public class CognitoAuthService {
                 ))
                 .build();
 
-        InitiateAuthResponse response = cognitoClient.initiateAuth(request);
+        InitiateAuthResponse response = cognitoIdentityProviderClient.initiateAuth(request);
         return response.authenticationResult();
     }
 }
