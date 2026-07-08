@@ -62,4 +62,15 @@ public class TestController
 		return response;
 	}
 	
+	@GetMapping("/create/{username}/{tempPassword}/{permamentPassword}")
+	public void createUser
+	(
+			@PathVariable String username, 
+			@PathVariable String tempPassword,
+			@PathVariable String permamentPassword
+			)
+	{
+		
+	}
+	
 }
