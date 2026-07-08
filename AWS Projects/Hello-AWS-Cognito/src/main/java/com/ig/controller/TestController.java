@@ -1,5 +1,7 @@
 package com.ig.controller;
 
+import java.util.Map;
+
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +14,7 @@ import com.ig.response.TokenResponse;
 import com.ig.service.CognitoAuthService;
 
 import software.amazon.awssdk.services.cognitoidentityprovider.model.AuthenticationResultType;
+import software.amazon.awssdk.services.cognitoidentityprovider.model.CognitoIdentityProviderResponse;
 
 @RestController
 @RequestMapping("/test")
@@ -62,15 +65,16 @@ public class TestController
 		return response;
 	}
 	
-	@GetMapping("/create/{username}/{tempPassword}/{permamentPassword}")
-	public void createUser
+	@GetMapping("/create/{username}/{tempPassword}/{permamentPassword}/{groupName}")
+	public Map<String, CognitoIdentityProviderResponse> createUser
 	(
 			@PathVariable String username, 
 			@PathVariable String tempPassword,
-			@PathVariable String permamentPassword
+			@PathVariable String permamentPassword,
+			@PathVariable String groupName
 			)
 	{
-		
+		return cognitoAuthService.createUser(username, tempPassword, permamentPassword, groupName);
 	}
 	
 }

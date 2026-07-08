@@ -1,4 +1,5 @@
 package com.ig.service;
+import java.util.HashMap;
 import java.util.Map;
 import org.springframework.stereotype.Service;
 import software.amazon.awssdk.regions.Region;
@@ -18,12 +19,13 @@ public class CognitoAuthService {
                     .region(Region.AP_SOUTH_1)
                     .build();
 
-	 public void createUser(
+	 public Map<String, CognitoIdentityProviderResponse> createUser(
 			 String email,
              String temporaryPassword,
              String permanentPassword,
              String groupName) 
 	 {
+		       Map<String, CognitoIdentityProviderResponse> map = new HashMap();
 		 		// Create User Request
 		 		AdminCreateUserRequest createRequest =
 		 		AdminCreateUserRequest.builder()
@@ -43,7 +45,8 @@ public class CognitoAuthService {
 				                          .build()
 		 								)
 		 		.build();
-		 		cognitoClient.adminCreateUser(createRequest);
+		 		AdminCreateUserResponse adminCreateUserResponse =  cognitoClient.adminCreateUser(createRequest);
+		 		map.put("admin_create_user_response", adminCreateUserResponse);
 	
 				// Add to Group
 				AdminAddUserToGroupRequest groupRequest =
@@ -53,8 +56,8 @@ public class CognitoAuthService {
 				          .groupName(groupName)
 				          .build();
 	
-				cognitoClient.adminAddUserToGroup(groupRequest);
-	
+				AdminAddUserToGroupResponse adminAddUserToGroupResponse = cognitoClient.adminAddUserToGroup(groupRequest);
+				map.put("admin_add_user_to_group_response", adminAddUserToGroupResponse);
 				// Set Permanent Password
 				AdminSetUserPasswordRequest passwordRequest =
 				  AdminSetUserPasswordRequest.builder()
@@ -64,8 +67,10 @@ public class CognitoAuthService {
 				          .permanent(true)
 				          .build();
 	
-				cognitoClient.adminSetUserPassword(passwordRequest);
-	}
+				AdminSetUserPasswordResponse  adminSetUserPasswordResponse = cognitoClient.adminSetUserPassword(passwordRequest);
+				map.put("admin_set_user_password_response", adminSetUserPasswordResponse);
+				return map;
+	 }
 	 
     public AuthenticationResultType login(
     									  String username,

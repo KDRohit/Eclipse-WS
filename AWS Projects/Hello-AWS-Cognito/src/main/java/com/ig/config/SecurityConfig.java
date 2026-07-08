@@ -127,6 +127,7 @@ public class SecurityConfig
 				auth->
 				{
 					auth.requestMatchers("/test/public").permitAll()
+					.requestMatchers("/test/create/**").permitAll()
 					.requestMatchers("/test/token/**").permitAll()
 					.requestMatchers("/test/secrethash/**").permitAll()
 					.requestMatchers("/test/user").hasAnyRole("user","USER")
