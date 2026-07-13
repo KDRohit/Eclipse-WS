@@ -14,8 +14,8 @@ public class CognitoConfig
 	public CognitoIdentityProviderClient cognitoClient() {
 
 	    AwsBasicCredentials credentials = AwsBasicCredentials.create(
-	            "AKIAXERUFZJPNR3EBEFW",
-	            "dufri0dBFmA8YWwmn1O08Zolkvlsrn43Vfkn+znh"
+	            "",
+	            ""
 	    );
 
 	    return CognitoIdentityProviderClient.builder()
