@@ -1,0 +1,929 @@
+2026-07-11T12:00:09.221+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Starting HelloAwsCognitoApplication using Java 21.0.7 with PID 27624 (D:\Eclipse-WS\AWS Projects\Hello-AWS-Cognito\target\classes started by rdubey in D:\Eclipse-WS\AWS Projects\Hello-AWS-Cognito)
+2026-07-11T12:00:09.223+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T12:00:10.250+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T12:00:10.262+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T12:00:10.263+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T12:00:10.319+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T12:00:10.320+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2026-07-11T12:00:11.348+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T12:00:11.359+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Started HelloAwsCognitoApplication in 2.553 seconds (process running for 2.948)
+2026-07-11T12:00:25.286+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T12:00:25.286+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T12:00:25.286+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-11T12:00:25.364+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] com.ig.controller.TestController         : username :: rohitdubey0786@gmail.com
+2026-07-11T12:00:25.365+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] com.ig.controller.TestController         : password :: Asdf@1234Asdf@1234
+2026-07-11T12:38:39.516+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Starting HelloAwsCognitoApplication using Java 21.0.7 with PID 20856 (D:\Eclipse-WS\AWS Projects\Hello-AWS-Cognito\target\classes started by rdubey in D:\Eclipse-WS\AWS Projects\Hello-AWS-Cognito)
+2026-07-11T12:38:39.518+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T12:38:40.536+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T12:38:40.549+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T12:38:40.550+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T12:38:40.608+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T12:38:40.608+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+2026-07-11T12:38:41.647+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T12:38:41.657+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Started HelloAwsCognitoApplication in 2.565 seconds (process running for 2.965)
+2026-07-11T12:38:47.367+05:30  INFO 20856 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T12:38:47.368+05:30  INFO 20856 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T12:38:47.372+05:30  INFO 20856 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-11T15:26:03.320+05:30  INFO 7764 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Starting HelloAwsCognitoApplication using Java 21.0.7 with PID 7764 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T15:26:03.323+05:30  INFO 7764 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T15:26:04.489+05:30  INFO 7764 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T15:26:04.507+05:30  INFO 7764 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T15:26:04.507+05:30  INFO 7764 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T15:26:04.564+05:30  INFO 7764 --- [Hello-AWS-Cognito] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T15:26:04.565+05:30  INFO 7764 --- [Hello-AWS-Cognito] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1194 ms
+2026-07-11T15:26:05.596+05:30  INFO 7764 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T15:26:05.604+05:30  INFO 7764 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Started HelloAwsCognitoApplication in 2.703 seconds (process running for 3.03)
+2026-07-11T15:29:30.082+05:30  INFO 18404 --- [Hello-AWS-Cognito] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 18404 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T15:29:30.085+05:30  INFO 18404 --- [Hello-AWS-Cognito] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T15:29:31.002+05:30  INFO 18404 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T15:29:31.015+05:30  INFO 18404 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T15:29:31.016+05:30  INFO 18404 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T15:29:31.077+05:30  INFO 18404 --- [Hello-AWS-Cognito] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T15:29:31.077+05:30  INFO 18404 --- [Hello-AWS-Cognito] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
+2026-07-11T15:29:32.175+05:30  INFO 18404 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T15:29:32.184+05:30  INFO 18404 --- [Hello-AWS-Cognito] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 2.516 seconds (process running for 2.886)
+2026-07-11T15:52:02.121+05:30  INFO 21252 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 21252 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T15:52:02.123+05:30  INFO 21252 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T15:52:03.145+05:30  INFO 21252 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a02053e2-c481-3bee-9450-1c407d26ddc7
+2026-07-11T15:52:03.437+05:30  INFO 21252 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1011 (http)
+2026-07-11T15:52:03.450+05:30  INFO 21252 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T15:52:03.451+05:30  INFO 21252 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T15:52:03.520+05:30  INFO 21252 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T15:52:03.520+05:30  INFO 21252 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1177 ms
+2026-07-11T15:52:04.675+05:30  INFO 21252 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1011 (http) with context path '/'
+2026-07-11T15:52:04.691+05:30  INFO 21252 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 2.999 seconds (process running for 3.503)
+2026-07-11T15:54:44.071+05:30  INFO 25772 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 25772 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T15:54:44.074+05:30  INFO 25772 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T15:54:45.109+05:30  INFO 25772 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a02053e2-c481-3bee-9450-1c407d26ddc7
+2026-07-11T15:54:45.406+05:30  INFO 25772 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1011 (http)
+2026-07-11T15:54:45.420+05:30  INFO 25772 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T15:54:45.420+05:30  INFO 25772 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T15:54:45.492+05:30  INFO 25772 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T15:54:45.493+05:30  INFO 25772 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1202 ms
+2026-07-11T15:54:46.664+05:30  INFO 25772 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1011 (http) with context path '/'
+2026-07-11T15:54:46.677+05:30  INFO 25772 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.064 seconds (process running for 3.598)
+2026-07-11T15:56:17.413+05:30  INFO 19308 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 19308 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T15:56:17.415+05:30  INFO 19308 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T15:56:18.447+05:30  INFO 19308 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a02053e2-c481-3bee-9450-1c407d26ddc7
+2026-07-11T15:56:18.733+05:30  INFO 19308 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-07-11T15:56:18.745+05:30  INFO 19308 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T15:56:18.746+05:30  INFO 19308 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T15:56:18.805+05:30  INFO 19308 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T15:56:18.805+05:30  INFO 19308 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1179 ms
+2026-07-11T15:56:20.015+05:30  INFO 19308 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-07-11T15:56:20.033+05:30  INFO 19308 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.072 seconds (process running for 3.596)
+2026-07-11T15:58:20.139+05:30  INFO 24128 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 24128 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T15:58:20.141+05:30  INFO 24128 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T15:58:21.193+05:30  INFO 24128 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a02053e2-c481-3bee-9450-1c407d26ddc7
+2026-07-11T15:58:21.558+05:30  INFO 24128 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-07-11T15:58:21.574+05:30  INFO 24128 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T15:58:21.574+05:30  INFO 24128 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T15:58:21.648+05:30  INFO 24128 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T15:58:21.649+05:30  INFO 24128 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1288 ms
+2026-07-11T15:58:23.613+05:30  INFO 24128 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-07-11T15:58:23.637+05:30  INFO 24128 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.948 seconds (process running for 4.501)
+2026-07-11T16:01:16.310+05:30  INFO 22192 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 22192 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:01:16.313+05:30  INFO 22192 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:01:17.464+05:30  INFO 22192 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:01:17.742+05:30  INFO 22192 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-07-11T16:01:17.754+05:30  INFO 22192 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:01:17.755+05:30  INFO 22192 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:01:17.820+05:30  INFO 22192 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:01:17.821+05:30  INFO 22192 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1281 ms
+2026-07-11T16:01:19.095+05:30  INFO 22192 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:01:19.239+05:30  WARN 22192 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:01:19.267+05:30  INFO 22192 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:01:19.295+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:01:19.300+05:30  INFO 22192 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:01:19.310+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:01:19.310+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:01:19.310+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:01:19.311+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:01:19.311+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:01:19.311+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:01:19.311+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:01:19.523+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:01:19.524+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:01:19.525+05:30  INFO 22192 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:01:19.527+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783765879526 with initial instances count: 0
+2026-07-11T16:01:19.530+05:30  INFO 22192 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:01:19.531+05:30  INFO 22192 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783765879531, current=UP, previous=STARTING]
+2026-07-11T16:01:19.532+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:8080: registering service...
+2026-07-11T16:01:19.556+05:30  INFO 22192 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-07-11T16:01:19.558+05:30  INFO 22192 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2026-07-11T16:01:19.573+05:30  INFO 22192 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.697 seconds (process running for 4.276)
+2026-07-11T16:01:19.619+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:8080 - registration status: 204
+2026-07-11T16:01:39.694+05:30  INFO 22192 --- [Security-Service] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T16:01:39.694+05:30  INFO 22192 --- [Security-Service] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T16:01:39.696+05:30  INFO 22192 --- [Security-Service] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-11T16:01:49.540+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:01:49.541+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:01:49.541+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:01:49.541+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:01:49.542+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:01:49.542+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2026-07-11T16:01:49.542+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:01:49.570+05:30  INFO 22192 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:08:02.622+05:30  INFO 4828 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 4828 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:08:02.624+05:30  INFO 4828 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:08:03.787+05:30  INFO 4828 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:08:04.061+05:30  INFO 4828 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:08:04.075+05:30  INFO 4828 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:08:04.076+05:30  INFO 4828 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:08:04.143+05:30  INFO 4828 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:08:04.144+05:30  INFO 4828 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1306 ms
+2026-07-11T16:08:05.359+05:30  INFO 4828 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:08:05.490+05:30  WARN 4828 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:08:05.515+05:30  INFO 4828 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:08:05.541+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:08:05.547+05:30  INFO 4828 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:08:05.559+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:08:05.559+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:08:05.559+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:08:05.560+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:08:05.560+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:08:05.560+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:08:05.560+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:08:05.786+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:08:05.787+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:08:05.789+05:30  INFO 4828 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:08:05.791+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783766285790 with initial instances count: 1
+2026-07-11T16:08:05.795+05:30  INFO 4828 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:08:05.796+05:30  INFO 4828 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783766285796, current=UP, previous=STARTING]
+2026-07-11T16:08:05.799+05:30  INFO 4828 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:08:05.830+05:30  INFO 4828 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T16:08:05.832+05:30  INFO 4828 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T16:08:05.851+05:30  INFO 4828 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:08:05.852+05:30  INFO 4828 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.677 seconds (process running for 4.243)
+2026-07-11T16:16:48.578+05:30  INFO 20528 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 20528 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:16:48.580+05:30  INFO 20528 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:16:49.726+05:30  INFO 20528 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:16:50.002+05:30  INFO 20528 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:16:50.022+05:30  INFO 20528 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:16:50.022+05:30  INFO 20528 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:16:50.096+05:30  INFO 20528 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:16:50.097+05:30  INFO 20528 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1304 ms
+2026-07-11T16:16:51.336+05:30  INFO 20528 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:16:51.483+05:30  WARN 20528 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:16:51.511+05:30  INFO 20528 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:16:51.533+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:16:51.537+05:30  INFO 20528 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:16:51.549+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:16:51.550+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:16:51.550+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:16:51.550+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:16:51.550+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:16:51.550+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:16:51.550+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:16:51.794+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:16:51.795+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:16:51.797+05:30  INFO 20528 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:16:51.799+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783766811798 with initial instances count: 0
+2026-07-11T16:16:51.803+05:30  INFO 20528 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:16:51.805+05:30  INFO 20528 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783766811805, current=UP, previous=STARTING]
+2026-07-11T16:16:51.807+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:16:51.834+05:30  INFO 20528 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T16:16:51.835+05:30  INFO 20528 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T16:16:51.852+05:30  INFO 20528 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.71 seconds (process running for 4.255)
+2026-07-11T16:16:51.967+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:17:20.297+05:30  INFO 20528 --- [Security-Service] [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T16:17:20.298+05:30  INFO 20528 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T16:17:20.300+05:30  INFO 20528 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-11T16:17:21.798+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:17:21.798+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:17:21.798+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:17:21.798+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:17:21.801+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:17:21.801+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2026-07-11T16:17:21.801+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:17:21.848+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:21:51.568+05:30  INFO 20528 --- [Security-Service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:22:31.828+05:30  INFO 23896 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 23896 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:22:31.830+05:30  INFO 23896 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:22:32.949+05:30  INFO 23896 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:22:33.218+05:30  INFO 23896 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:22:33.236+05:30  INFO 23896 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:22:33.237+05:30  INFO 23896 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:22:33.310+05:30  INFO 23896 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:22:33.310+05:30  INFO 23896 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1264 ms
+2026-07-11T16:22:34.702+05:30  INFO 23896 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:22:34.893+05:30  WARN 23896 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:22:34.921+05:30  INFO 23896 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:22:34.952+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:22:34.958+05:30  INFO 23896 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:22:34.970+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:22:34.970+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:22:34.970+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:22:34.970+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:22:34.971+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:22:34.971+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:22:34.971+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:22:35.160+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:22:35.162+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:22:35.164+05:30  INFO 23896 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:22:35.166+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783767155165 with initial instances count: 2
+2026-07-11T16:22:35.169+05:30  INFO 23896 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:22:35.170+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783767155170, current=UP, previous=STARTING]
+2026-07-11T16:22:35.171+05:30  INFO 23896 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:22:35.178+05:30  INFO 23896 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SECURITY-SERVICE with eureka with status DOWN
+2026-07-11T16:22:35.178+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783767155178, current=DOWN, previous=UP]
+2026-07-11T16:22:35.179+05:30  WARN 23896 --- [Security-Service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-07-11T16:22:35.183+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2026-07-11T16:22:35.210+05:30  INFO 23896 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:22:35.211+05:30  INFO 23896 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:22:35.217+05:30  INFO 23896 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:22:35.217+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2026-07-11T16:22:35.224+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - deregister  status: 200
+2026-07-11T16:22:35.224+05:30  INFO 23896 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2026-07-11T16:22:35.242+05:30  INFO 23896 --- [Security-Service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-11T16:22:35.262+05:30 ERROR 23896 --- [Security-Service] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 1010 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 1010 or configure this application to listen on another port.
+
+2026-07-11T16:22:52.214+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - Re-registering apps/SECURITY-SERVICE
+2026-07-11T16:22:52.214+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:22:52.219+05:30  INFO 20528 --- [Security-Service] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:23:39.475+05:30  INFO 21188 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 21188 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:23:39.476+05:30  INFO 21188 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:23:40.571+05:30  INFO 21188 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:23:40.862+05:30  INFO 21188 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:23:40.881+05:30  INFO 21188 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:23:40.881+05:30  INFO 21188 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:23:40.954+05:30  INFO 21188 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:23:40.954+05:30  INFO 21188 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1264 ms
+2026-07-11T16:23:42.220+05:30  INFO 21188 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:23:42.366+05:30  WARN 21188 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:23:42.396+05:30  INFO 21188 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:23:42.422+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:23:42.426+05:30  INFO 21188 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:23:42.438+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:23:42.438+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:23:42.438+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:23:42.439+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:23:42.439+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:23:42.439+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:23:42.439+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:23:42.685+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:23:42.687+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:23:42.689+05:30  INFO 21188 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:23:42.691+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783767222690 with initial instances count: 2
+2026-07-11T16:23:42.695+05:30  INFO 21188 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:23:42.696+05:30  INFO 21188 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783767222696, current=UP, previous=STARTING]
+2026-07-11T16:23:42.698+05:30  INFO 21188 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:23:42.729+05:30  INFO 21188 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T16:23:42.730+05:30  INFO 21188 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T16:23:42.741+05:30  INFO 21188 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:23:42.748+05:30  INFO 21188 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.713 seconds (process running for 4.247)
+2026-07-11T16:23:47.146+05:30  INFO 21188 --- [Security-Service] [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T16:23:47.147+05:30  INFO 21188 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T16:23:47.147+05:30  INFO 21188 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-11T16:26:30.576+05:30  INFO 20972 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 20972 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:26:30.579+05:30  INFO 20972 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:26:31.733+05:30  INFO 20972 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:26:32.050+05:30  INFO 20972 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:26:32.071+05:30  INFO 20972 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:26:32.071+05:30  INFO 20972 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:26:32.141+05:30  INFO 20972 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:26:32.142+05:30  INFO 20972 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1344 ms
+2026-07-11T16:26:33.124+05:30  WARN 20972 --- [Security-Service] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [test/**] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2026-07-11T16:26:33.551+05:30  INFO 20972 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:26:33.685+05:30  WARN 20972 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:26:33.716+05:30  INFO 20972 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:26:33.740+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:26:33.744+05:30  INFO 20972 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:26:33.754+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:26:33.754+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:26:33.754+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:26:33.754+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:26:33.754+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:26:33.754+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:26:33.754+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:26:33.969+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:26:33.971+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:26:33.973+05:30  INFO 20972 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:26:33.975+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783767393974 with initial instances count: 2
+2026-07-11T16:26:33.978+05:30  INFO 20972 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:26:33.979+05:30  INFO 20972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783767393979, current=UP, previous=STARTING]
+2026-07-11T16:26:33.980+05:30  INFO 20972 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:26:34.011+05:30  INFO 20972 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T16:26:34.012+05:30  INFO 20972 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T16:26:34.022+05:30  INFO 20972 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:26:34.028+05:30  INFO 20972 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.89 seconds (process running for 4.412)
+2026-07-11T16:26:41.069+05:30  INFO 20972 --- [Security-Service] [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T16:26:41.069+05:30  INFO 20972 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T16:26:41.069+05:30  INFO 20972 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-11T16:27:00.350+05:30  INFO 964 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 964 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:27:00.352+05:30  INFO 964 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:27:01.481+05:30  INFO 964 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:27:01.775+05:30  INFO 964 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:27:01.793+05:30  INFO 964 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:27:01.794+05:30  INFO 964 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:27:01.865+05:30  INFO 964 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:27:01.866+05:30  INFO 964 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1284 ms
+2026-07-11T16:27:03.139+05:30  INFO 964 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:27:03.287+05:30  WARN 964 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:27:03.318+05:30  INFO 964 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:27:03.343+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:27:03.350+05:30  INFO 964 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:27:03.360+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:27:03.361+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:27:03.361+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:27:03.361+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:27:03.361+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:27:03.361+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:27:03.361+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:27:03.599+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:27:03.602+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:27:03.605+05:30  INFO 964 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:27:03.607+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783767423606 with initial instances count: 2
+2026-07-11T16:27:03.613+05:30  INFO 964 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:27:03.613+05:30  INFO 964 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783767423613, current=UP, previous=STARTING]
+2026-07-11T16:27:03.615+05:30  INFO 964 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:27:03.654+05:30  INFO 964 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T16:27:03.655+05:30  INFO 964 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T16:27:03.664+05:30  INFO 964 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:27:03.672+05:30  INFO 964 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.753 seconds (process running for 4.291)
+2026-07-11T16:27:10.604+05:30  INFO 964 --- [Security-Service] [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T16:27:10.604+05:30  INFO 964 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T16:27:10.604+05:30  INFO 964 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-11T16:28:24.928+05:30  INFO 11064 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 11064 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:28:24.930+05:30  INFO 11064 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:28:26.001+05:30  INFO 11064 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:28:26.295+05:30  INFO 11064 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:28:26.310+05:30  INFO 11064 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:28:26.310+05:30  INFO 11064 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:28:26.382+05:30  INFO 11064 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:28:26.382+05:30  INFO 11064 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1248 ms
+2026-07-11T16:28:27.615+05:30  INFO 11064 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:28:27.764+05:30  WARN 11064 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:28:27.792+05:30  INFO 11064 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:28:27.816+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:28:27.823+05:30  INFO 11064 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:28:27.833+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:28:27.834+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:28:27.834+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:28:27.834+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:28:27.835+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:28:27.835+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:28:27.835+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:28:28.065+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:28:28.069+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:28:28.071+05:30  INFO 11064 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:28:28.073+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783767508072 with initial instances count: 2
+2026-07-11T16:28:28.076+05:30  INFO 11064 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:28:28.077+05:30  INFO 11064 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783767508077, current=UP, previous=STARTING]
+2026-07-11T16:28:28.078+05:30  INFO 11064 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:28:28.107+05:30  INFO 11064 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T16:28:28.108+05:30  INFO 11064 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T16:28:28.120+05:30  INFO 11064 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:28:28.127+05:30  INFO 11064 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.642 seconds (process running for 4.16)
+2026-07-11T16:28:34.807+05:30  INFO 11064 --- [Security-Service] [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T16:28:34.807+05:30  INFO 11064 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T16:28:34.807+05:30  INFO 11064 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-11T16:33:27.848+05:30  INFO 11064 --- [Security-Service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:43:32.605+05:30  INFO 25736 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 25736 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:43:32.607+05:30  INFO 25736 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:43:33.720+05:30  INFO 25736 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:43:33.995+05:30  INFO 25736 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:43:34.007+05:30  INFO 25736 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:43:34.008+05:30  INFO 25736 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:43:34.076+05:30  INFO 25736 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:43:34.076+05:30  INFO 25736 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1235 ms
+2026-07-11T16:43:35.370+05:30  INFO 25736 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:43:35.527+05:30  WARN 25736 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:43:35.561+05:30  INFO 25736 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:43:35.591+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:43:35.598+05:30  INFO 25736 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:43:35.609+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:43:35.610+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:43:35.610+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:43:35.610+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:43:35.610+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:43:35.610+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:43:35.610+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:43:35.931+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:43:35.933+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:43:35.936+05:30  INFO 25736 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:43:35.938+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783768415937 with initial instances count: 0
+2026-07-11T16:43:35.943+05:30  INFO 25736 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:43:35.945+05:30  INFO 25736 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783768415945, current=UP, previous=STARTING]
+2026-07-11T16:43:35.948+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:43:35.981+05:30  INFO 25736 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T16:43:35.983+05:30  INFO 25736 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T16:43:36.016+05:30  INFO 25736 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.851 seconds (process running for 4.411)
+2026-07-11T16:43:36.122+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:44:05.939+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:44:05.939+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:44:05.939+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:44:05.939+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:44:05.939+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:44:05.939+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2026-07-11T16:44:05.939+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:44:05.995+05:30  INFO 25736 --- [Security-Service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:44:09.058+05:30  INFO 25736 --- [Security-Service] [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T16:44:09.058+05:30  INFO 25736 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T16:44:09.058+05:30  INFO 25736 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-11T16:46:01.615+05:30  INFO 27360 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 27360 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:46:01.617+05:30  INFO 27360 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:46:02.887+05:30  INFO 27360 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:46:03.187+05:30  INFO 27360 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:46:03.200+05:30  INFO 27360 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:46:03.201+05:30  INFO 27360 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:46:03.276+05:30  INFO 27360 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:46:03.276+05:30  INFO 27360 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1436 ms
+2026-07-11T16:46:04.714+05:30  INFO 27360 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:46:04.891+05:30  WARN 27360 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:46:04.923+05:30  INFO 27360 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:46:04.949+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:46:04.953+05:30  INFO 27360 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:46:04.963+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:46:04.964+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:46:04.964+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:46:04.964+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:46:04.964+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:46:04.964+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:46:04.965+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:46:05.240+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:46:05.242+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:46:05.244+05:30  INFO 27360 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:46:05.246+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783768565246 with initial instances count: 2
+2026-07-11T16:46:05.251+05:30  INFO 27360 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:46:05.251+05:30  INFO 27360 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783768565251, current=UP, previous=STARTING]
+2026-07-11T16:46:05.254+05:30  INFO 27360 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:46:05.280+05:30  INFO 27360 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T16:46:05.282+05:30  INFO 27360 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T16:46:05.298+05:30  INFO 27360 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:46:05.306+05:30  INFO 27360 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 4.138 seconds (process running for 4.737)
+2026-07-11T16:46:09.531+05:30  INFO 27360 --- [Security-Service] [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T16:46:09.532+05:30  INFO 27360 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T16:46:09.534+05:30  INFO 27360 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-11T16:51:04.987+05:30  INFO 27360 --- [Security-Service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:53:47.964+05:30  INFO 20408 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 20408 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T16:53:47.966+05:30  INFO 20408 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T16:53:49.001+05:30 TRACE 20408 --- [Security-Service] [main] Proxies$ForwardedTrustedProxiesCondition : Condition TrustedProxies.ForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#forwardedRequestHeadersFilter did not match due to AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.forwarded-request-headers-filter.enabled) matched
+2026-07-11T16:53:49.004+05:30 TRACE 20408 --- [Security-Service] [main] xies$NotForwardedTrustedProxiesCondition : Condition TrustedProxies.NotForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#removeForwardedRequestHeadersFilter matched due to NoneNestedConditions 0 matched 1 did not; NestedCondition on TrustedProxies.NotForwardedTrustedProxiesCondition.OnForwardedTrustedProxiesCondition AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.forwarded-request-headers-filter.enabled) matched
+2026-07-11T16:53:49.014+05:30 TRACE 20408 --- [Security-Service] [main] roxies$XForwardedTrustedProxiesCondition : Condition TrustedProxies.XForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#xForwardedRequestHeadersFilter did not match due to AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.x-forwarded-request-headers-filter.enabled) matched
+2026-07-11T16:53:49.016+05:30 TRACE 20408 --- [Security-Service] [main] ies$NotXForwardedTrustedProxiesCondition : Condition TrustedProxies.NotXForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#removeXForwardedRequestHeadersFilter matched due to NoneNestedConditions 0 matched 1 did not; NestedCondition on TrustedProxies.NotXForwardedTrustedProxiesCondition.OnXForwardedTrustedProxiesCondition AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.x-forwarded-request-headers-filter.enabled) matched
+2026-07-11T16:53:49.116+05:30  INFO 20408 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=447a6f0b-acc8-384e-b8c5-6b56ffe58ac4
+2026-07-11T16:53:49.399+05:30  INFO 20408 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T16:53:49.412+05:30  INFO 20408 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T16:53:49.412+05:30  INFO 20408 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T16:53:49.484+05:30  INFO 20408 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T16:53:49.484+05:30  INFO 20408 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1294 ms
+2026-07-11T16:53:50.187+05:30 TRACE 20408 --- [Security-Service] [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@618f627b}
+2026-07-11T16:53:50.189+05:30 DEBUG 20408 --- [Security-Service] [main] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-07-11T16:53:50.359+05:30 TRACE 20408 --- [Security-Service] [main] .s.c.g.s.m.c.RouterFunctionHolderFactory : RouterFunctionHolder initializing with 0 map routes and 0 list routes
+2026-07-11T16:53:50.361+05:30 TRACE 20408 --- [Security-Service] [main] .s.c.g.s.m.c.RouterFunctionHolderFactory : RouterFunctionHolder initialized Never -> org.springframework.cloud.gateway.server.mvc.config.RouterFunctionHolderFactory$$Lambda/0x000001aa815d7808@4c8d45cf
+2026-07-11T16:53:50.438+05:30 DEBUG 20408 --- [Security-Service] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-07-11T16:53:50.759+05:30  INFO 20408 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T16:53:50.903+05:30  WARN 20408 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T16:53:50.933+05:30  INFO 20408 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T16:53:50.963+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T16:53:50.968+05:30  INFO 20408 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T16:53:50.980+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T16:53:50.981+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T16:53:50.981+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T16:53:50.981+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T16:53:50.981+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T16:53:50.981+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T16:53:50.981+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T16:53:51.209+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T16:53:51.211+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T16:53:51.213+05:30  INFO 20408 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T16:53:51.216+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783769031215 with initial instances count: 2
+2026-07-11T16:53:51.221+05:30  INFO 20408 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T16:53:51.221+05:30  INFO 20408 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783769031221, current=UP, previous=STARTING]
+2026-07-11T16:53:51.223+05:30  INFO 20408 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T16:53:51.249+05:30  INFO 20408 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T16:53:51.250+05:30  INFO 20408 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T16:53:51.262+05:30  INFO 20408 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T16:53:51.266+05:30  INFO 20408 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.763 seconds (process running for 4.305)
+2026-07-11T16:54:01.687+05:30  INFO 20408 --- [Security-Service] [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T16:54:01.687+05:30  INFO 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T16:54:01.704+05:30  INFO 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [com/ig/config/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Csrf, Logout, UsernamePasswordAuthentication, BearerTokenAuthentication, Authentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, ExceptionTranslation, Authorization] (1/1)
+2026-07-11T16:54:01.723+05:30 DEBUG 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /test/check
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/14)
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/14)
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/14)
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/14)
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking CsrfFilter (5/14)
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] s.s.w.c.CsrfTokenRequestAttributeHandler : Wrote a CSRF token to the following request attributes: [_csrf, org.springframework.security.web.csrf.CsrfToken]
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.csrf.CsrfFilter         : Did not protect against CSRF since request did not match And [CsrfNotRequired [TRACE, HEAD, GET, OPTIONS], Not [Or [org.springframework.security.config.annotation.web.configurers.oauth2.server.resource.OAuth2ResourceServerConfigurer$BearerTokenRequestMatcher@7884f722]]]
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (6/14)
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Ant [pattern='/logout', POST]
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking UsernamePasswordAuthenticationFilter (7/14)
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] w.a.UsernamePasswordAuthenticationFilter : Did not match request to Ant [pattern='/login', POST]
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking BearerTokenAuthenticationFilter (8/14)
+2026-07-11T16:54:01.723+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.authentication.ProviderManager     : Authenticating request with JwtAuthenticationProvider (1/3)
+2026-07-11T16:54:03.288+05:30 DEBUG 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.o.s.r.a.JwtAuthenticationProvider  : Authenticated token
+2026-07-11T16:54:03.300+05:30 DEBUG 20408 --- [Security-Service] [http-nio-1010-exec-2] .s.r.w.a.BearerTokenAuthenticationFilter : Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]]
+2026-07-11T16:54:03.300+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AuthenticationFilter (9/14)
+2026-07-11T16:54:03.303+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.AuthenticationFilter           : Did not match request to org.springframework.security.config.annotation.web.configurers.oauth2.server.resource.DPoPAuthenticationConfigurer$DPoPRequestMatcher@3840596f
+2026-07-11T16:54:03.303+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (10/14)
+2026-07-11T16:54:03.305+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.s.HttpSessionRequestCache        : matchingRequestParameterName is required for getMatchingRequest to lookup a value, but not provided
+2026-07-11T16:54:03.305+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (11/14)
+2026-07-11T16:54:03.306+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (12/14)
+2026-07-11T16:54:03.308+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (13/14)
+2026-07-11T16:54:03.308+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (14/14)
+2026-07-11T16:54:03.308+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] estMatcherDelegatingAuthorizationManager : Authorizing GET /test/check
+2026-07-11T16:54:03.310+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] estMatcherDelegatingAuthorizationManager : Checking authorization on GET /test/check using org.springframework.security.authorization.SingleResultAuthorizationManager@55c7bd0f
+2026-07-11T16:54:03.310+05:30 DEBUG 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /test/check
+2026-07-11T16:54:03.310+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.c.g.s.m.f.WeightCalculatorFilter     : Weights attr: {}
+2026-07-11T16:54:03.327+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match request to [Is Secure]
+2026-07-11T16:54:03.327+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Did not set SecurityContextHolder since already authenticated JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]]
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [com/ig/config/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Csrf, Logout, UsernamePasswordAuthentication, BearerTokenAuthentication, Authentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, ExceptionTranslation, Authorization] (1/1)
+2026-07-11T16:54:03.337+05:30 DEBUG 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking CsrfFilter (5/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (6/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Ant [pattern='/logout', POST]
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking UsernamePasswordAuthenticationFilter (7/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] w.a.UsernamePasswordAuthenticationFilter : Did not match request to Ant [pattern='/login', POST]
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking BearerTokenAuthenticationFilter (8/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AuthenticationFilter (9/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (10/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.s.HttpSessionRequestCache        : matchingRequestParameterName is required for getMatchingRequest to lookup a value, but not provided
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (11/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (12/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (13/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (14/14)
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] estMatcherDelegatingAuthorizationManager : Authorizing GET /error
+2026-07-11T16:54:03.337+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] estMatcherDelegatingAuthorizationManager : Denying request since did not find matching RequestMatcher
+2026-07-11T16:54:03.340+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] w.c.HttpSessionSecurityContextRepository : No HttpSession currently exists
+2026-07-11T16:54:03.340+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] .s.s.w.c.SupplierDeferredSecurityContext : Created SecurityContextImpl [Null authentication]
+2026-07-11T16:54:03.340+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Did not set SecurityContextHolder since already authenticated JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]]
+2026-07-11T16:54:03.340+05:30 TRACE 20408 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.ExceptionTranslationFilter     : Sending JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]] to access denied handler since access is denied
+
+org.springframework.security.authorization.AuthorizationDeniedException: Access Denied
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:99) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:610) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:394) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:321) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:266) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:374) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:206) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:149) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-07-11T17:00:14.643+05:30  INFO 23972 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 23972 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T17:00:14.645+05:30  INFO 23972 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T17:00:15.691+05:30 TRACE 23972 --- [Security-Service] [main] Proxies$ForwardedTrustedProxiesCondition : Condition TrustedProxies.ForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#forwardedRequestHeadersFilter did not match due to AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.forwarded-request-headers-filter.enabled) matched
+2026-07-11T17:00:15.693+05:30 TRACE 23972 --- [Security-Service] [main] xies$NotForwardedTrustedProxiesCondition : Condition TrustedProxies.NotForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#removeForwardedRequestHeadersFilter matched due to NoneNestedConditions 0 matched 1 did not; NestedCondition on TrustedProxies.NotForwardedTrustedProxiesCondition.OnForwardedTrustedProxiesCondition AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.forwarded-request-headers-filter.enabled) matched
+2026-07-11T17:00:15.699+05:30 TRACE 23972 --- [Security-Service] [main] roxies$XForwardedTrustedProxiesCondition : Condition TrustedProxies.XForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#xForwardedRequestHeadersFilter did not match due to AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.x-forwarded-request-headers-filter.enabled) matched
+2026-07-11T17:00:15.702+05:30 TRACE 23972 --- [Security-Service] [main] ies$NotXForwardedTrustedProxiesCondition : Condition TrustedProxies.NotXForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#removeXForwardedRequestHeadersFilter matched due to NoneNestedConditions 0 matched 1 did not; NestedCondition on TrustedProxies.NotXForwardedTrustedProxiesCondition.OnXForwardedTrustedProxiesCondition AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.x-forwarded-request-headers-filter.enabled) matched
+2026-07-11T17:00:15.812+05:30  INFO 23972 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=64514437-d255-3df5-9c64-582785f50497
+2026-07-11T17:00:16.134+05:30  INFO 23972 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T17:00:16.146+05:30  INFO 23972 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T17:00:16.146+05:30  INFO 23972 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T17:00:16.221+05:30  INFO 23972 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T17:00:16.221+05:30  INFO 23972 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1348 ms
+2026-07-11T17:00:16.918+05:30 TRACE 23972 --- [Security-Service] [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@5464b97c}
+2026-07-11T17:00:16.921+05:30 DEBUG 23972 --- [Security-Service] [main] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-07-11T17:00:17.097+05:30 TRACE 23972 --- [Security-Service] [main] .s.c.g.s.m.c.RouterFunctionHolderFactory : RouterFunctionHolder initializing with 0 map routes and 0 list routes
+2026-07-11T17:00:17.098+05:30 TRACE 23972 --- [Security-Service] [main] .s.c.g.s.m.c.RouterFunctionHolderFactory : RouterFunctionHolder initialized Never -> org.springframework.cloud.gateway.server.mvc.config.RouterFunctionHolderFactory$$Lambda/0x0000020bac5ce268@b808af5
+2026-07-11T17:00:17.179+05:30 DEBUG 23972 --- [Security-Service] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-07-11T17:00:17.518+05:30  INFO 23972 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T17:00:17.673+05:30  WARN 23972 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T17:00:17.700+05:30  INFO 23972 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T17:00:17.726+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T17:00:17.732+05:30  INFO 23972 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T17:00:17.743+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T17:00:17.743+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T17:00:17.743+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T17:00:17.743+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T17:00:17.743+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T17:00:17.744+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T17:00:17.744+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T17:00:17.982+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T17:00:17.984+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T17:00:17.986+05:30  INFO 23972 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T17:00:17.988+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783769417988 with initial instances count: 2
+2026-07-11T17:00:17.993+05:30  INFO 23972 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T17:00:17.993+05:30  INFO 23972 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783769417993, current=UP, previous=STARTING]
+2026-07-11T17:00:17.995+05:30  INFO 23972 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T17:00:18.032+05:30  INFO 23972 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T17:00:18.033+05:30  INFO 23972 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T17:00:18.042+05:30  INFO 23972 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T17:00:18.053+05:30  INFO 23972 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 3.876 seconds (process running for 4.435)
+2026-07-11T17:00:25.880+05:30  INFO 23972 --- [Security-Service] [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T17:00:25.880+05:30  INFO 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T17:00:25.882+05:30  INFO 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-11T17:00:25.903+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [com/ig/config/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Csrf, Logout, UsernamePasswordAuthentication, BearerTokenAuthentication, Authentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, ExceptionTranslation, Authorization] (1/1)
+2026-07-11T17:00:25.904+05:30 DEBUG 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /test/check
+2026-07-11T17:00:25.905+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/14)
+2026-07-11T17:00:25.905+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/14)
+2026-07-11T17:00:25.907+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/14)
+2026-07-11T17:00:25.908+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/14)
+2026-07-11T17:00:25.909+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking CsrfFilter (5/14)
+2026-07-11T17:00:25.910+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] s.s.w.c.CsrfTokenRequestAttributeHandler : Wrote a CSRF token to the following request attributes: [_csrf, org.springframework.security.web.csrf.CsrfToken]
+2026-07-11T17:00:25.911+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.csrf.CsrfFilter         : Did not protect against CSRF since request did not match And [CsrfNotRequired [TRACE, HEAD, GET, OPTIONS], Not [Or [org.springframework.security.config.annotation.web.configurers.oauth2.server.resource.OAuth2ResourceServerConfigurer$BearerTokenRequestMatcher@6bfdaa7a]]]
+2026-07-11T17:00:25.911+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (6/14)
+2026-07-11T17:00:25.911+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Ant [pattern='/logout', POST]
+2026-07-11T17:00:25.911+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking UsernamePasswordAuthenticationFilter (7/14)
+2026-07-11T17:00:25.911+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] w.a.UsernamePasswordAuthenticationFilter : Did not match request to Ant [pattern='/login', POST]
+2026-07-11T17:00:25.912+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking BearerTokenAuthenticationFilter (8/14)
+2026-07-11T17:00:25.913+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.authentication.ProviderManager     : Authenticating request with JwtAuthenticationProvider (1/3)
+2026-07-11T17:00:27.906+05:30 DEBUG 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.o.s.r.a.JwtAuthenticationProvider  : Authenticated token
+2026-07-11T17:00:27.907+05:30 DEBUG 23972 --- [Security-Service] [http-nio-1010-exec-2] .s.r.w.a.BearerTokenAuthenticationFilter : Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]]
+2026-07-11T17:00:27.907+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AuthenticationFilter (9/14)
+2026-07-11T17:00:27.908+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.AuthenticationFilter           : Did not match request to org.springframework.security.config.annotation.web.configurers.oauth2.server.resource.DPoPAuthenticationConfigurer$DPoPRequestMatcher@44e6bea0
+2026-07-11T17:00:27.908+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (10/14)
+2026-07-11T17:00:27.908+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.s.HttpSessionRequestCache        : matchingRequestParameterName is required for getMatchingRequest to lookup a value, but not provided
+2026-07-11T17:00:27.908+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (11/14)
+2026-07-11T17:00:27.909+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (12/14)
+2026-07-11T17:00:27.910+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (13/14)
+2026-07-11T17:00:27.910+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (14/14)
+2026-07-11T17:00:27.910+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] estMatcherDelegatingAuthorizationManager : Authorizing GET /test/check
+2026-07-11T17:00:27.912+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] estMatcherDelegatingAuthorizationManager : Checking authorization on GET /test/check using org.springframework.security.authorization.SingleResultAuthorizationManager@3256fa7c
+2026-07-11T17:00:27.912+05:30 DEBUG 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /test/check
+2026-07-11T17:00:27.913+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.c.g.s.m.f.WeightCalculatorFilter     : Weights attr: {}
+2026-07-11T17:00:27.923+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match request to [Is Secure]
+2026-07-11T17:00:27.925+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Did not set SecurityContextHolder since already authenticated JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]]
+2026-07-11T17:00:27.929+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [com/ig/config/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Csrf, Logout, UsernamePasswordAuthentication, BearerTokenAuthentication, Authentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, ExceptionTranslation, Authorization] (1/1)
+2026-07-11T17:00:27.929+05:30 DEBUG 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-07-11T17:00:27.929+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/14)
+2026-07-11T17:00:27.929+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/14)
+2026-07-11T17:00:27.929+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/14)
+2026-07-11T17:00:27.930+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/14)
+2026-07-11T17:00:27.930+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking CsrfFilter (5/14)
+2026-07-11T17:00:27.930+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (6/14)
+2026-07-11T17:00:27.930+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Ant [pattern='/logout', POST]
+2026-07-11T17:00:27.930+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking UsernamePasswordAuthenticationFilter (7/14)
+2026-07-11T17:00:27.930+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] w.a.UsernamePasswordAuthenticationFilter : Did not match request to Ant [pattern='/login', POST]
+2026-07-11T17:00:27.930+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking BearerTokenAuthenticationFilter (8/14)
+2026-07-11T17:00:27.930+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AuthenticationFilter (9/14)
+2026-07-11T17:00:27.931+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (10/14)
+2026-07-11T17:00:27.931+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.s.HttpSessionRequestCache        : matchingRequestParameterName is required for getMatchingRequest to lookup a value, but not provided
+2026-07-11T17:00:27.931+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (11/14)
+2026-07-11T17:00:27.931+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (12/14)
+2026-07-11T17:00:27.931+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (13/14)
+2026-07-11T17:00:27.931+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (14/14)
+2026-07-11T17:00:27.931+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] estMatcherDelegatingAuthorizationManager : Authorizing GET /error
+2026-07-11T17:00:27.932+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] estMatcherDelegatingAuthorizationManager : Denying request since did not find matching RequestMatcher
+2026-07-11T17:00:27.932+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] w.c.HttpSessionSecurityContextRepository : No HttpSession currently exists
+2026-07-11T17:00:27.934+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] .s.s.w.c.SupplierDeferredSecurityContext : Created SecurityContextImpl [Null authentication]
+2026-07-11T17:00:27.934+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Did not set SecurityContextHolder since already authenticated JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]]
+2026-07-11T17:00:27.934+05:30 TRACE 23972 --- [Security-Service] [http-nio-1010-exec-2] o.s.s.w.a.ExceptionTranslationFilter     : Sending JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]] to access denied handler since access is denied
+
+org.springframework.security.authorization.AuthorizationDeniedException: Access Denied
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:99) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:379) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.11.jar:6.5.11]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101) ~[spring-web-6.2.19.jar:6.2.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:610) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:394) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:321) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:266) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:374) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:206) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:149) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.55.jar:10.1.55]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-07-11T17:03:38.932+05:30  INFO 4120 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Starting Proj01APIGateWayAWSSecurityApplication using Java 21.0.7 with PID 4120 (D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity\target\classes started by rdubey in D:\Eclipse-WS\Aws Projects with Micro Service\Proj01-API-GateWay-AWSSecurity)
+2026-07-11T17:03:38.934+05:30  INFO 4120 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T17:03:40.027+05:30 TRACE 4120 --- [Security-Service] [main] Proxies$ForwardedTrustedProxiesCondition : Condition TrustedProxies.ForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#forwardedRequestHeadersFilter did not match due to AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.forwarded-request-headers-filter.enabled) matched
+2026-07-11T17:03:40.029+05:30 TRACE 4120 --- [Security-Service] [main] xies$NotForwardedTrustedProxiesCondition : Condition TrustedProxies.NotForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#removeForwardedRequestHeadersFilter matched due to NoneNestedConditions 0 matched 1 did not; NestedCondition on TrustedProxies.NotForwardedTrustedProxiesCondition.OnForwardedTrustedProxiesCondition AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.ForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.forwarded-request-headers-filter.enabled) matched
+2026-07-11T17:03:40.040+05:30 TRACE 4120 --- [Security-Service] [main] roxies$XForwardedTrustedProxiesCondition : Condition TrustedProxies.XForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#xForwardedRequestHeadersFilter did not match due to AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.x-forwarded-request-headers-filter.enabled) matched
+2026-07-11T17:03:40.043+05:30 TRACE 4120 --- [Security-Service] [main] ies$NotXForwardedTrustedProxiesCondition : Condition TrustedProxies.NotXForwardedTrustedProxiesCondition on org.springframework.cloud.gateway.server.mvc.GatewayServerMvcAutoConfiguration#removeXForwardedRequestHeadersFilter matched due to NoneNestedConditions 0 matched 1 did not; NestedCondition on TrustedProxies.NotXForwardedTrustedProxiesCondition.OnXForwardedTrustedProxiesCondition AllNestedConditions 1 matched 1 did not; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnTrustedProxiesNotEmpty spring.cloud.gateway.server.webmvc.trusted-proxies property is not set or is empty.; NestedCondition on TrustedProxies.XForwardedTrustedProxiesCondition.OnPropertyEnabled @ConditionalOnProperty (spring.cloud.gateway.server.webmvc.x-forwarded-request-headers-filter.enabled) matched
+2026-07-11T17:03:40.184+05:30  INFO 4120 --- [Security-Service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=64514437-d255-3df5-9c64-582785f50497
+2026-07-11T17:03:40.519+05:30  INFO 4120 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T17:03:40.534+05:30  INFO 4120 --- [Security-Service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T17:03:40.534+05:30  INFO 4120 --- [Security-Service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T17:03:40.608+05:30  INFO 4120 --- [Security-Service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T17:03:40.608+05:30  INFO 4120 --- [Security-Service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1445 ms
+2026-07-11T17:03:41.363+05:30 TRACE 4120 --- [Security-Service] [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration=org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$WebSecurityEnablerConfiguration@5611bba}
+2026-07-11T17:03:41.366+05:30 DEBUG 4120 --- [Security-Service] [main] swordEncoderAuthenticationManagerBuilder : No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-07-11T17:03:41.470+05:30 DEBUG 4120 --- [Security-Service] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, BearerTokenAuthenticationFilter, AuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-07-11T17:03:41.640+05:30 TRACE 4120 --- [Security-Service] [main] .s.c.g.s.m.c.RouterFunctionHolderFactory : RouterFunctionHolder initializing with 0 map routes and 0 list routes
+2026-07-11T17:03:41.641+05:30 TRACE 4120 --- [Security-Service] [main] .s.c.g.s.m.c.RouterFunctionHolderFactory : RouterFunctionHolder initialized Never -> org.springframework.cloud.gateway.server.mvc.config.RouterFunctionHolderFactory$$Lambda/0x000001dd4a5ed110@1115be8c
+2026-07-11T17:03:41.966+05:30  INFO 4120 --- [Security-Service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-07-11T17:03:42.110+05:30  WARN 4120 --- [Security-Service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-07-11T17:03:42.135+05:30  INFO 4120 --- [Security-Service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2026-07-11T17:03:42.162+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2026-07-11T17:03:42.173+05:30  INFO 4120 --- [Security-Service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2026-07-11T17:03:42.184+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2026-07-11T17:03:42.185+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2026-07-11T17:03:42.185+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2026-07-11T17:03:42.185+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2026-07-11T17:03:42.185+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2026-07-11T17:03:42.185+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2026-07-11T17:03:42.186+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2026-07-11T17:03:42.425+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2026-07-11T17:03:42.429+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2026-07-11T17:03:42.431+05:30  INFO 4120 --- [Security-Service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-07-11T17:03:42.434+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1783769622433 with initial instances count: 2
+2026-07-11T17:03:42.440+05:30  INFO 4120 --- [Security-Service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SECURITY-SERVICE with eureka with status UP
+2026-07-11T17:03:42.440+05:30  INFO 4120 --- [Security-Service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1783769622440, current=UP, previous=STARTING]
+2026-07-11T17:03:42.442+05:30  INFO 4120 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010: registering service...
+2026-07-11T17:03:42.485+05:30  INFO 4120 --- [Security-Service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T17:03:42.486+05:30  INFO 4120 --- [Security-Service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 1010
+2026-07-11T17:03:42.503+05:30  INFO 4120 --- [Security-Service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SECURITY-SERVICE/host.docker.internal:Security-Service:1010 - registration status: 204
+2026-07-11T17:03:42.508+05:30  INFO 4120 --- [Security-Service] [main] i.Proj01APIGateWayAWSSecurityApplication : Started Proj01APIGateWayAWSSecurityApplication in 4.045 seconds (process running for 4.623)
+2026-07-11T17:03:45.913+05:30  INFO 4120 --- [Security-Service] [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T17:03:45.913+05:30  INFO 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T17:03:45.922+05:30  INFO 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2026-07-11T17:03:45.946+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [com/ig/config/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Csrf, Logout, UsernamePasswordAuthentication, BearerTokenAuthentication, Authentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, ExceptionTranslation, Authorization] (1/1)
+2026-07-11T17:03:45.946+05:30 DEBUG 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /test/check
+2026-07-11T17:03:45.950+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/14)
+2026-07-11T17:03:45.950+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/14)
+2026-07-11T17:03:45.950+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/14)
+2026-07-11T17:03:45.953+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/14)
+2026-07-11T17:03:45.953+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking CsrfFilter (5/14)
+2026-07-11T17:03:45.955+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] s.s.w.c.CsrfTokenRequestAttributeHandler : Wrote a CSRF token to the following request attributes: [_csrf, org.springframework.security.web.csrf.CsrfToken]
+2026-07-11T17:03:45.955+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.csrf.CsrfFilter         : Did not protect against CSRF since request did not match And [CsrfNotRequired [TRACE, HEAD, GET, OPTIONS], Not [Or [org.springframework.security.config.annotation.web.configurers.oauth2.server.resource.OAuth2ResourceServerConfigurer$BearerTokenRequestMatcher@238ad211]]]
+2026-07-11T17:03:45.955+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (6/14)
+2026-07-11T17:03:45.955+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Ant [pattern='/logout', POST]
+2026-07-11T17:03:45.955+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking UsernamePasswordAuthenticationFilter (7/14)
+2026-07-11T17:03:45.955+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] w.a.UsernamePasswordAuthenticationFilter : Did not match request to Ant [pattern='/login', POST]
+2026-07-11T17:03:45.955+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking BearerTokenAuthenticationFilter (8/14)
+2026-07-11T17:03:45.955+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.authentication.ProviderManager     : Authenticating request with JwtAuthenticationProvider (1/3)
+2026-07-11T17:03:49.895+05:30 DEBUG 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.o.s.r.a.JwtAuthenticationProvider  : Authenticated token
+2026-07-11T17:03:49.898+05:30 DEBUG 4120 --- [Security-Service] [http-nio-1010-exec-1] .s.r.w.a.BearerTokenAuthenticationFilter : Set SecurityContextHolder to JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]]
+2026-07-11T17:03:49.898+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking AuthenticationFilter (9/14)
+2026-07-11T17:03:49.900+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.w.a.AuthenticationFilter           : Did not match request to org.springframework.security.config.annotation.web.configurers.oauth2.server.resource.DPoPAuthenticationConfigurer$DPoPRequestMatcher@5ff963ff
+2026-07-11T17:03:49.900+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (10/14)
+2026-07-11T17:03:49.900+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.w.s.HttpSessionRequestCache        : matchingRequestParameterName is required for getMatchingRequest to lookup a value, but not provided
+2026-07-11T17:03:49.900+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (11/14)
+2026-07-11T17:03:49.902+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (12/14)
+2026-07-11T17:03:49.902+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (13/14)
+2026-07-11T17:03:49.902+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (14/14)
+2026-07-11T17:03:49.902+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] estMatcherDelegatingAuthorizationManager : Authorizing GET /test/check
+2026-07-11T17:03:49.902+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] estMatcherDelegatingAuthorizationManager : Checking authorization on GET /test/check using org.springframework.security.authorization.SingleResultAuthorizationManager@2e2cbe8c
+2026-07-11T17:03:49.902+05:30 DEBUG 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /test/check
+2026-07-11T17:03:49.902+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.c.g.s.m.f.WeightCalculatorFilter     : Weights attr: {}
+2026-07-11T17:03:49.912+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.w.header.writers.HstsHeaderWriter  : Not injecting HSTS header since it did not match request to [Is Secure]
+2026-07-11T17:03:49.912+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Did not set SecurityContextHolder since already authenticated JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]]
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Trying to match request against DefaultSecurityFilterChain defined as 'securityFilterChain' in [class path resource [com/ig/config/SecurityConfig.class]] matching [any request] and having filters [DisableEncodeUrl, WebAsyncManagerIntegration, SecurityContextHolder, HeaderWriter, Csrf, Logout, UsernamePasswordAuthentication, BearerTokenAuthentication, Authentication, RequestCacheAware, SecurityContextHolderAwareRequest, AnonymousAuthentication, ExceptionTranslation, Authorization] (1/1)
+2026-07-11T17:03:49.929+05:30 DEBUG 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking DisableEncodeUrlFilter (1/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking WebAsyncManagerIntegrationFilter (2/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderFilter (3/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking HeaderWriterFilter (4/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking CsrfFilter (5/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking LogoutFilter (6/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.w.a.logout.LogoutFilter            : Did not match request to Ant [pattern='/logout', POST]
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking UsernamePasswordAuthenticationFilter (7/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] w.a.UsernamePasswordAuthenticationFilter : Did not match request to Ant [pattern='/login', POST]
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking BearerTokenAuthenticationFilter (8/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking AuthenticationFilter (9/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking RequestCacheAwareFilter (10/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.w.s.HttpSessionRequestCache        : matchingRequestParameterName is required for getMatchingRequest to lookup a value, but not provided
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking SecurityContextHolderAwareRequestFilter (11/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking AnonymousAuthenticationFilter (12/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking ExceptionTranslationFilter (13/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Invoking AuthorizationFilter (14/14)
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] estMatcherDelegatingAuthorizationManager : Authorizing GET /error
+2026-07-11T17:03:49.929+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] estMatcherDelegatingAuthorizationManager : Checking authorization on GET /error using org.springframework.security.authorization.SingleResultAuthorizationManager@2e2cbe8c
+2026-07-11T17:03:49.929+05:30 DEBUG 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /error
+2026-07-11T17:03:49.962+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] w.c.HttpSessionSecurityContextRepository : No HttpSession currently exists
+2026-07-11T17:03:49.962+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] .s.s.w.c.SupplierDeferredSecurityContext : Created SecurityContextImpl [Null authentication]
+2026-07-11T17:03:49.962+05:30 TRACE 4120 --- [Security-Service] [http-nio-1010-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Did not set SecurityContextHolder since already authenticated JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@9b096272, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_ADMIN]]

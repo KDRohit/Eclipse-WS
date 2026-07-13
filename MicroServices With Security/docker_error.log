@@ -1,0 +1,26 @@
+2026-07-11T12:00:09.221+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Starting HelloAwsCognitoApplication using Java 21.0.7 with PID 27624 (D:\Eclipse-WS\AWS Projects\Hello-AWS-Cognito\target\classes started by rdubey in D:\Eclipse-WS\AWS Projects\Hello-AWS-Cognito)
+2026-07-11T12:00:09.223+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T12:00:10.250+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T12:00:10.262+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T12:00:10.263+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T12:00:10.319+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T12:00:10.320+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2026-07-11T12:00:11.348+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T12:00:11.359+05:30  INFO 27624 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Started HelloAwsCognitoApplication in 2.553 seconds (process running for 2.948)
+2026-07-11T12:00:25.286+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T12:00:25.286+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T12:00:25.286+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-11T12:00:25.364+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] com.ig.controller.TestController         : username :: rohitdubey0786@gmail.com
+2026-07-11T12:00:25.365+05:30  INFO 27624 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] com.ig.controller.TestController         : password :: Asdf@1234Asdf@1234
+2026-07-11T12:38:39.516+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Starting HelloAwsCognitoApplication using Java 21.0.7 with PID 20856 (D:\Eclipse-WS\AWS Projects\Hello-AWS-Cognito\target\classes started by rdubey in D:\Eclipse-WS\AWS Projects\Hello-AWS-Cognito)
+2026-07-11T12:38:39.518+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-11T12:38:40.536+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 1010 (http)
+2026-07-11T12:38:40.549+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-11T12:38:40.550+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-07-11T12:38:40.608+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-07-11T12:38:40.608+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+2026-07-11T12:38:41.647+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 1010 (http) with context path '/'
+2026-07-11T12:38:41.657+05:30  INFO 20856 --- [Hello-AWS-Cognito] [main] com.ig.HelloAwsCognitoApplication        : Started HelloAwsCognitoApplication in 2.565 seconds (process running for 2.965)
+2026-07-11T12:38:47.367+05:30  INFO 20856 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-11T12:38:47.368+05:30  INFO 20856 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-11T12:38:47.372+05:30  INFO 20856 --- [Hello-AWS-Cognito] [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
